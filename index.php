@@ -202,7 +202,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;WaterBottle&amp;#160;{<\/span><br><br><span class=\"dCode dNoWrap\">2:&amp;#160;private&amp;#160;String&amp;#160;brand;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;private&amp;#160;boolean&amp;#160;empty;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;WaterBottle&amp;#160;wb&amp;#160;=&amp;#160;new&amp;#160;WaterBottle();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Empty&amp;#160;=&amp;#160;\"&amp;#160;+&amp;#160;wb.empty);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;System.out.print(\",&amp;#160;Brand&amp;#160;=&amp;#160;\"&amp;#160;+&amp;#160;wb.brand);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;}&amp;#160;}&amp;#160;<\/span>",
+				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1: public class WaterBottle {<\/span><br><br><span class=\"dCode dNoWrap\">2: private String brand;<\/span><br><span class=\"dCode dNoWrap\">3: private boolean empty;<\/span><br><span class=\"dCode dNoWrap\">4: public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">5:   WaterBottle wb = new WaterBottle();<\/span><br><span class=\"dCode dNoWrap\">6:   System.out.print(\"Empty = \" + wb.empty);<\/span><br><span class=\"dCode dNoWrap\">7:   System.out.print(\", Brand = \" + wb.brand);<\/span><br><span class=\"dCode dNoWrap\">8:  } } <\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -230,27 +230,27 @@
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Empty&amp;#160;=&amp;#160;false,&amp;#160;Brand&amp;#160;=&amp;#160;null<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Empty = false, Brand = null<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Empty&amp;#160;=&amp;#160;false,&amp;#160;Brand&amp;#160;=&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Empty = false, Brand = <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Empty&amp;#160;=&amp;#160;null,&amp;#160;Brand&amp;#160;=&amp;#160;null<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Empty = null, Brand = null<\/span>",
 					"display_order": "1"
 				}]
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Boolean fields initialize to <span class=\"dCode dNoWrap\">false<\/span> and references initialize to <span class=\"dCode dNoWrap\">null<\/span>, so <span class=\"dCode dNoWrap\">Empty<\/span> is <span class=\"dCode dNoWrap\">false<\/span> and <span class=\"dCode dNoWrap\">Brand<\/span> is <span class=\"dCode dNoWrap\">null<\/span>. <span class=\"dCode dNoWrap\">Brand&amp;#160;=&amp;#160;null<\/span> is output. ",
+				"data": "Boolean fields initialize to <span class=\"dCode dNoWrap\">false<\/span> and references initialize to <span class=\"dCode dNoWrap\">null<\/span>, so <span class=\"dCode dNoWrap\">Empty<\/span> is <span class=\"dCode dNoWrap\">false<\/span> and <span class=\"dCode dNoWrap\">Brand<\/span> is <span class=\"dCode dNoWrap\">null<\/span>. <span class=\"dCode dNoWrap\">Brand = null<\/span> is output. ",
 				"display_order": "1"
 			}]
 		}, {
@@ -278,7 +278,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;4:<\/span> short numPets = 5;<br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;5:&amp;#160;int&amp;#160;numGrains&amp;#160;=&amp;#160;5.6;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;6:&amp;#160;String&amp;#160;name&amp;#160;=&amp;#160;\"Scruffy\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;7:&amp;#160;numPets.length();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;8:&amp;#160;numGrains.length();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;9:&amp;#160;name.length();<\/span>",
+				"data": "Which of the following are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">  4:<\/span> short numPets = 5;<br><span class=\"dCode dNoWrap\">  5: int numGrains = 5.6;<\/span><br><span class=\"dCode dNoWrap\">  6: String name = \"Scruffy\";<\/span><br><span class=\"dCode dNoWrap\">  7: numPets.length();<\/span><br><span class=\"dCode dNoWrap\">  8: numGrains.length();<\/span><br><span class=\"dCode dNoWrap\">  9: name.length();<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -361,35 +361,35 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following class, which of the following is true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">&amp;#160;1:&amp;#160;public&amp;#160;class&amp;#160;Snake&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;2:&amp;#160;&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;3:&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;shed(boolean&amp;#160;time)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;4:<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;if&amp;#160;(time)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;6:<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(result);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;9:<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;}<\/span>",
+				"data": "Given the following class, which of the following is true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\"> 1: public class Snake {<\/span><br><span class=\"dCode dNoWrap\"> 2:  <\/span><br><span class=\"dCode dNoWrap\"> 3:  public void shed(boolean time) {<\/span><br><span class=\"dCode dNoWrap\"> 4:<\/span><br><span class=\"dCode dNoWrap\"> 5:    if (time) {<\/span><br><span class=\"dCode dNoWrap\"> 6:<\/span><br><span class=\"dCode dNoWrap\"> 7:    }<\/span><br><span class=\"dCode dNoWrap\"> 8:    System.out.println(result);<\/span><br><span class=\"dCode dNoWrap\"> 9:<\/span><br><span class=\"dCode dNoWrap\">10:  }<\/span><br><span class=\"dCode dNoWrap\">11: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If <span class=\"dCode dNoWrap\">String&amp;#160;result&amp;#160;=&amp;#160;\"done\";<\/span> is inserted on line 2, the code will compile.",
+					"data": "If <span class=\"dCode dNoWrap\">String result = \"done\";<\/span> is inserted on line 2, the code will compile.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If <span class=\"dCode dNoWrap\">String&amp;#160;result&amp;#160;=&amp;#160;\"done\";<\/span> is inserted on line 4, the code will compile.",
+					"data": "If <span class=\"dCode dNoWrap\">String result = \"done\";<\/span> is inserted on line 4, the code will compile.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If <span class=\"dCode dNoWrap\">String&amp;#160;result&amp;#160;=&amp;#160;\"done\";<\/span> is inserted on line 6, the code will compile.",
+					"data": "If <span class=\"dCode dNoWrap\">String result = \"done\";<\/span> is inserted on line 6, the code will compile.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If <span class=\"dCode dNoWrap\">String&amp;#160;result&amp;#160;=&amp;#160;\"done\";<\/span> is inserted on line 9, the code will compile.",
+					"data": "If <span class=\"dCode dNoWrap\">String result = \"done\";<\/span> is inserted on line 9, the code will compile.",
 					"display_order": "1"
 				}]
 			}, {
@@ -430,42 +430,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following classes, which of the following can independently replace <span class=\"dCode dNoWrap\">INSERT&amp;#160;IMPORTS&amp;#160;HERE<\/span> to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Tank&amp;#160;{&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium.jellies;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Jelly&amp;#160;{&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">package&amp;#160;visitor;<\/span><br><span class=\"dCode dNoWrap\">INSERT&amp;#160;IMPORTS&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;AquariumVisitor&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;admire(Jelly&amp;#160;jelly)&amp;#160;{&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Given the following classes, which of the following can independently replace <span class=\"dCode dNoWrap\">INSERT IMPORTS HERE<\/span> to make the code compile? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">package aquarium;<\/span><br><span class=\"dCode dNoWrap\">public class Tank { }<\/span><br><br><span class=\"dCode dNoWrap\">package aquarium.jellies;<\/span><br><span class=\"dCode dNoWrap\">public class Jelly { }<\/span><br><br><span class=\"dCode dNoWrap\">package visitor;<\/span><br><span class=\"dCode dNoWrap\">INSERT IMPORTS HERE<\/span><br><span class=\"dCode dNoWrap\">public class AquariumVisitor {<\/span><br><span class=\"dCode dNoWrap\">  public void admire(Jelly jelly) { } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*.Jelly;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.*.Jelly;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.Jelly<\/span>;",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.jellies.Jelly<\/span>;",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.jellies.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.Jelly.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.jellies.Jelly.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -506,7 +506,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following classes, what is the maximum number of imports that can be removed and have the code still compile?<br><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium;&amp;#160;public&amp;#160;class&amp;#160;Water&amp;#160;{&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;java.lang.*;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;java.lang.System;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Tank&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;print(Water&amp;#160;water)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;System.out.println(water);&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Given the following classes, what is the maximum number of imports that can be removed and have the code still compile?<br><br><span class=\"dCode dNoWrap\">package aquarium; public class Water { }<\/span><br><br><span class=\"dCode dNoWrap\">package aquarium;<\/span><br><span class=\"dCode dNoWrap\">import java.lang.*;<\/span><br><span class=\"dCode dNoWrap\">import java.lang.System;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">public class Tank {<\/span><br><span class=\"dCode dNoWrap\">  public void print(Water water) {<\/span><br><span class=\"dCode dNoWrap\">   System.out.println(water); } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -582,42 +582,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following classes, which of the following snippets can be inserted in place of <span class=\"dCode dNoWrap\">INSERT&amp;#160;IMPORTS&amp;#160;HERE<\/span> and have the code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Water&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;boolean&amp;#160;salty&amp;#160;=&amp;#160;false;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">package&amp;#160;aquarium.jellies;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Water&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;boolean&amp;#160;salty&amp;#160;=&amp;#160;true;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">package&amp;#160;employee;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;INSERT&amp;#160;IMPORTS&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;WaterFiller&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Water&amp;#160;water;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Given the following classes, which of the following snippets can be inserted in place of <span class=\"dCode dNoWrap\">INSERT IMPORTS HERE<\/span> and have the code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">package aquarium;<\/span><br><span class=\"dCode dNoWrap\">public class Water {<\/span><br><span class=\"dCode dNoWrap\">  boolean salty = false;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">package aquarium.jellies;<\/span><br><span class=\"dCode dNoWrap\">public class Water {<\/span><br><span class=\"dCode dNoWrap\">  boolean salty = true;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">package employee;<\/span><br><span class=\"dCode dNoWrap\"> INSERT IMPORTS HERE<\/span><br><span class=\"dCode dNoWrap\">public class WaterFiller {<\/span><br><span class=\"dCode dNoWrap\">  Water water;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.jellies.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.Water;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.jellies.Water;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.*;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.jellies.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;aquarium.jellies.Water;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import aquarium.Water;<\/span><br><span class=\"dCode dNoWrap\">import aquarium.jellies.Water;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -658,49 +658,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following class, which of the following calls print out <span class=\"dCode dNoWrap\">Blue&amp;#160;Jay<\/span>? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;BirdDisplay&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;name)&amp;#160;{&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(name[1]);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Given the following class, which of the following calls print out <span class=\"dCode dNoWrap\">Blue Jay<\/span>? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public class BirdDisplay {<\/span><br><span class=\"dCode dNoWrap\">      public static void main(String[] name) {             System.out.println(name[1]);<\/span><br><span class=\"dCode dNoWrap\">             } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay&amp;#160;Sparrow&amp;#160;Blue&amp;#160;Jay<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay Sparrow Blue Jay<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay&amp;#160;Sparrow&amp;#160;\"Blue&amp;#160;Jay\"<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay Sparrow \"Blue Jay\"<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay&amp;#160;Blue&amp;#160;Jay&amp;#160;Sparrow<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay Blue Jay Sparrow<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay&amp;#160;\"Blue&amp;#160;Jay\"&amp;#160;Sparrow<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay \"Blue Jay\" Sparrow<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay.class&amp;#160;Sparrow&amp;#160;\"Blue&amp;#160;Jay\"<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay.class Sparrow \"Blue Jay\"<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java&amp;#160;BirdDisplay.class&amp;#160;\"Blue&amp;#160;Jay\"&amp;#160;Sparrow<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java BirdDisplay.class \"Blue Jay\" Sparrow<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -713,7 +713,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Option B is correct because arrays start counting from zero and strings with spaces must be in quotes. Option A is incorrect because it outputs <span class=\"dCode dNoWrap\">Blue<\/span>. C is incorrect because it outputs <span class=\"dCode dNoWrap\">Jay<\/span>. Option D is incorrect because it outputs <span class=\"dCode dNoWrap\">Sparrow<\/span>. Options E and F are incorrect because they output <span class=\"dCode dNoWrap\">Error:&amp;#160;Could&amp;#160;not&amp;#160;find&amp;#160;or&amp;#160;load&amp;#160;main&amp;#160;class&amp;#160;BirdDisplay.class<\/span>.",
+				"data": "Option B is correct because arrays start counting from zero and strings with spaces must be in quotes. Option A is incorrect because it outputs <span class=\"dCode dNoWrap\">Blue<\/span>. C is incorrect because it outputs <span class=\"dCode dNoWrap\">Jay<\/span>. Option D is incorrect because it outputs <span class=\"dCode dNoWrap\">Sparrow<\/span>. Options E and F are incorrect because they output <span class=\"dCode dNoWrap\">Error: Could not find or load main class BirdDisplay.class<\/span>.",
 				"display_order": "1"
 			}]
 		}, {
@@ -741,49 +741,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following legally fill in the blank so you can run the <span class=\"dCode dNoWrap\">main()<\/span> method from the command line? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;void&amp;#160;main(_______)&amp;#160;<\/span>",
+				"data": "Which of the following legally fill in the blank so you can run the <span class=\"dCode dNoWrap\">main()<\/span> method from the command line? (Choose all that apply.)<br><br><span class=\"dCode dNoWrap\">public static void main(_______) <\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String[]&amp;#160;_names<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String[] _names<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String[]&amp;#160;123<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String[] 123<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String&amp;#160;abc[]<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String abc[]<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String&amp;#160;_Names[]<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String _Names[]<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String...&amp;#160;$n<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String... $n<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String&amp;#160;names<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String names<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -831,42 +831,42 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">private&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">private static void main(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;final&amp;#160;main(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public static final main(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void main(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;void&amp;#160;test(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public static void test(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public static void main(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;main(String[]&amp;#160;args)&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public static main(String[] args) <\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -1156,49 +1156,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following class in the file <span class=\"dCode dNoWrap\">\/my\/directory\/named\/A\/Bird.java<\/span>:<br><br><br><span class=\"dCode dNoWrap\">INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;}<\/span><br><br>Which of the following replaces <span class=\"dCode dNoWrap\">INSERT&amp;#160;CODE&amp;#160;HERE<\/span> if we compile from <span class=\"dCode dNoWrap\">\/my\/directory<\/span>? (Choose all that apply)",
+				"data": "Given the following class in the file <span class=\"dCode dNoWrap\">\/my\/directory\/named\/A\/Bird.java<\/span>:<br><br><br><span class=\"dCode dNoWrap\">INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">public class Bird { }<\/span><br><br>Which of the following replaces <span class=\"dCode dNoWrap\">INSERT CODE HERE<\/span> if we compile from <span class=\"dCode dNoWrap\">\/my\/directory<\/span>? (Choose all that apply)",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;my.directory.named.a;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package my.directory.named.a;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;my.directory.named.A;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package my.directory.named.A;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;named.a;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package named.a;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;named.A;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package named.A;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;a;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package a;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">package&amp;#160;A;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">package A;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -1246,35 +1246,35 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;i1&amp;#160;=&amp;#160;1_234;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int i1 = 1_234;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;d1&amp;#160;=&amp;#160;1_234_.0;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double d1 = 1_234_.0;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;d2&amp;#160;=&amp;#160;1_234._0;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double d2 = 1_234._0;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;d3&amp;#160;=&amp;#160;1_234.0_;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double d3 = 1_234.0_;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;d4&amp;#160;=&amp;#160;1_234.0;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double d4 = 1_234.0;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -1315,49 +1315,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following class, which of the following lines of code can replace <span class=\"dCode dNoWrap\">INSERT&amp;#160;CODE&amp;#160;HERE<\/span> to make the code compile? (Choose all that apply).<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Price&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;admission()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(amount);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Given the following class, which of the following lines of code can replace <span class=\"dCode dNoWrap\">INSERT CODE HERE<\/span> to make the code compile? (Choose all that apply).<br><br><span class=\"dCode dNoWrap\">public class Price {<\/span><br><span class=\"dCode dNoWrap\">      public void admission() {<\/span><br><span class=\"dCode dNoWrap\">             \/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">             System.out.println(amount);<\/span><br><span class=\"dCode dNoWrap\">      } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;amount&amp;#160;=&amp;#160;9L;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int amount = 9L;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;amount&amp;#160;=&amp;#160;0b101;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int amount = 0b101;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;amount&amp;#160;=&amp;#160;0xE;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int amount = 0xE;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;amount&amp;#160;=&amp;#160;0xE;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double amount = 0xE;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">double&amp;#160;amount&amp;#160;=&amp;#160;1_2_.0_0;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">double amount = 1_2_.0_0;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;amount&amp;#160;=&amp;#160;1_2_;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int amount = 1_2_;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -1370,7 +1370,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "<span class=\"dCode dNoWrap\">0b<\/span> is the prefix for a binary value and is correct. <span class=\"dCode dNoWrap\">0X<\/span> is the prefix for a hexadecimal value. This value can be assigned to many primitive types, including <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">double<\/span>, making options C and D correct. Option A is incorrect because <span class=\"dCode dNoWrap\">9L<\/span> is a long value. <span class=\"dCode dNoWrap\">long&amp;#160;amount&amp;#160;=&amp;#160;9L<\/span> would be allowed. Option E is incorrect because the underscore is immediately before the decimal. Option F is incorrect because the underscore is the very last character.",
+				"data": "<span class=\"dCode dNoWrap\">0b<\/span> is the prefix for a binary value and is correct. <span class=\"dCode dNoWrap\">0X<\/span> is the prefix for a hexadecimal value. This value can be assigned to many primitive types, including <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">double<\/span>, making options C and D correct. Option A is incorrect because <span class=\"dCode dNoWrap\">9L<\/span> is a long value. <span class=\"dCode dNoWrap\">long amount = 9L<\/span> would be allowed. Option E is incorrect because the underscore is immediately before the decimal. Option F is incorrect because the underscore is the very last character.",
 				"display_order": "1"
 			}]
 		}, {
@@ -1398,7 +1398,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bunny&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Bunny&amp;#160;bun&amp;#160;=&amp;#160;new&amp;#160;Bunny();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Which of the following are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Bunny {<\/span><br><span class=\"dCode dNoWrap\">       public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">            Bunny bun = new Bunny();<\/span><br><span class=\"dCode dNoWrap\">       } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -1481,7 +1481,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which represent the order in which the following statements can be assembled into a program that will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;A:&amp;#160;class&amp;#160;Rabbit&amp;#160;{}&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;B:&amp;#160;import&amp;#160;java.util.*;&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;C:&amp;#160;package&amp;#160;animals;<\/span>",
+				"data": "Which represent the order in which the following statements can be assembled into a program that will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">      A: class Rabbit {} <\/span><br><span class=\"dCode dNoWrap\">      B: import java.util.*; <\/span><br><span class=\"dCode dNoWrap\">      C: package animals;<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -1564,7 +1564,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Suppose we have a class named <span class=\"dCode dNoWrap\">Rabbit<\/span>. Which of the following statements are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Rabbit&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rabbit&amp;#160;one&amp;#160;=&amp;#160;new&amp;#160;Rabbit();<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rabbit&amp;#160;two&amp;#160;=&amp;#160;new&amp;#160;Rabbit();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rabbit&amp;#160;three&amp;#160;=&amp;#160;one;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;one&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rabbit&amp;#160;four&amp;#160;=&amp;#160;one;<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;three&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;two&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;two&amp;#160;=&amp;#160;new&amp;#160;Rabbit();<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;System.gc();<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Suppose we have a class named <span class=\"dCode dNoWrap\">Rabbit<\/span>. Which of the following statements are true? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:  public class Rabbit {<\/span><br><span class=\"dCode dNoWrap\">2:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:    Rabbit one = new Rabbit();<\/span><br><span class=\"dCode dNoWrap\">4:    Rabbit two = new Rabbit();<\/span><br><span class=\"dCode dNoWrap\">5:    Rabbit three = one;<\/span><br><span class=\"dCode dNoWrap\">6:    one = null;<\/span><br><span class=\"dCode dNoWrap\">7:    Rabbit four = one;<\/span><br><span class=\"dCode dNoWrap\">8:    three = null;<\/span><br><span class=\"dCode dNoWrap\">9:    two = null;<\/span><br><span class=\"dCode dNoWrap\">10:   two = new Rabbit();<\/span><br><span class=\"dCode dNoWrap\">11:   System.gc();<\/span><br><span class=\"dCode dNoWrap\">12: } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -1640,28 +1640,28 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Bear&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;protected&amp;#160;void&amp;#160;finalize()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"Roar!\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Bear&amp;#160;bear&amp;#160;=&amp;#160;new&amp;#160;Bear();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;bear&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.gc();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">       public class Bear {<\/span><br><span class=\"dCode dNoWrap\">         protected void finalize() {<\/span><br><span class=\"dCode dNoWrap\">           System.out.println(\"Roar!\");<\/span><br><span class=\"dCode dNoWrap\">         }<\/span><br><span class=\"dCode dNoWrap\">       public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">         Bear bear = new Bear();<\/span><br><span class=\"dCode dNoWrap\">         bear = null;<\/span><br><span class=\"dCode dNoWrap\">         System.gc();<\/span><br><span class=\"dCode dNoWrap\">       } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">finalize()&amp;#160;<\/span>is guaranteed to be called.",
+					"data": "<span class=\"dCode dNoWrap\">finalize() <\/span>is guaranteed to be called.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">finalize()&amp;#160;<\/span>might or might not be called",
+					"data": "<span class=\"dCode dNoWrap\">finalize() <\/span>might or might not be called",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">finalize()&amp;#160;<\/span>is guaranteed not to be called.",
+					"data": "<span class=\"dCode dNoWrap\">finalize() <\/span>is guaranteed not to be called.",
 					"display_order": "1"
 				}]
 			}, {
@@ -1723,7 +1723,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What does the following code output?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;Salmon&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;int&amp;#160;count;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;Salmon()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;count&amp;#160;=&amp;#160;4;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;Salmon&amp;#160;s&amp;#160;=&amp;#160;new&amp;#160;Salmon();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;System.out.println(s.count);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What does the following code output?<br><br><span class=\"dCode dNoWrap\">1: public class Salmon {<\/span><br><span class=\"dCode dNoWrap\">2:  int count;<\/span><br><span class=\"dCode dNoWrap\">3:  public void Salmon() {<\/span><br><span class=\"dCode dNoWrap\">4:    count = 4;<\/span><br><span class=\"dCode dNoWrap\">5:  }<\/span><br><span class=\"dCode dNoWrap\">6: public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">7:  Salmon s = new Salmon();<\/span><br><span class=\"dCode dNoWrap\">8:  System.out.println(s.count);<\/span><br><span class=\"dCode dNoWrap\">9: } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -1889,7 +1889,7 @@
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">javac<\/span> compiles a <span class=\"dCode dNoWrap\">.java<\/span> file into a<span class=\"dCode dNoWrap\">&amp;#160;.bytecode<\/span> file.",
+					"data": "<span class=\"dCode dNoWrap\">javac<\/span> compiles a <span class=\"dCode dNoWrap\">.java<\/span> file into a<span class=\"dCode dNoWrap\"> .bytecode<\/span> file.",
 					"display_order": "1"
 				}]
 			}, {
@@ -2027,7 +2027,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What data type (or types) will allow the following code snippet to compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">byte&amp;#160;x&amp;#160;=&amp;#160;5;<\/span><br><span class=\"dCode dNoWrap\">byte&amp;#160;y&amp;#160;=&amp;#160;10;<\/span><br><span class=\"dCode dNoWrap\">_____&amp;#160;z&amp;#160;=&amp;#160;x&amp;#160;+&amp;#160;y;<\/span>",
+				"data": "What data type (or types) will allow the following code snippet to compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">byte x = 5;<\/span><br><span class=\"dCode dNoWrap\">byte y = 10;<\/span><br><span class=\"dCode dNoWrap\">_____ z = x + y;<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2075,7 +2075,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The value is <span class=\"dCode dNoWrap\">x&amp;#160;+&amp;#160;y<\/span> is automatically promoted to <span class=\"dCode dNoWrap\">int<\/span>, so <span class=\"dCode dNoWrap\">int<\/span> and data types that can be promoted automatically from <span class=\"dCode dNoWrap\">int<\/span> will work. Options A, B, D are such data types. Option C will not work because <span class=\"dCode dNoWrap\">boolean<\/span> is not a numeric data type. Options E and F will not work without an explicit cast to a smaller data type.",
+				"data": "The value is <span class=\"dCode dNoWrap\">x + y<\/span> is automatically promoted to <span class=\"dCode dNoWrap\">int<\/span>, so <span class=\"dCode dNoWrap\">int<\/span> and data types that can be promoted automatically from <span class=\"dCode dNoWrap\">int<\/span> will work. Options A, B, D are such data types. Option C will not work because <span class=\"dCode dNoWrap\">boolean<\/span> is not a numeric data type. Options E and F will not work without an explicit cast to a smaller data type.",
 				"display_order": "1"
 			}]
 		}, {
@@ -2103,14 +2103,14 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following application?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;CompareValues&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;while(x++&amp;#160;&amp;#60;&amp;#160;10)&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;String&amp;#160;message&amp;#160;=&amp;#160;x&amp;#160;&amp;#62;&amp;#160;10&amp;#160;?&amp;#160;\"Greater&amp;#160;than\"&amp;#160;:&amp;#160;false;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(message+\",\"+x);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;}<\/span>",
+				"data": "What is the output of the following application?<br><br><span class=\"dCode dNoWrap\">1: public class CompareValues {<\/span><br><span class=\"dCode dNoWrap\">2:     public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:          int x = 0;<\/span><br><span class=\"dCode dNoWrap\">4:          while(x++ &amp;#60; 10) {}<\/span><br><span class=\"dCode dNoWrap\">5:          String message = x &amp;#62; 10 ? \"Greater than\" : false;<\/span><br><span class=\"dCode dNoWrap\">6:          System.out.println(message+\",\"+x);<\/span><br><span class=\"dCode dNoWrap\">7:     }<\/span><br><span class=\"dCode dNoWrap\">8: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Greater&amp;#160;than,10<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Greater than,10<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -2124,7 +2124,7 @@
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Greater&amp;#160;than,11<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Greater than,11<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -2179,7 +2179,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What change would allow the following code snippet to compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;long&amp;#160;x&amp;#160;=&amp;#160;10;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;int&amp;#160;y&amp;#160;=&amp;#160;2&amp;#160;*&amp;#160;x;<\/span>",
+				"data": "What change would allow the following code snippet to compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3: long x = 10;<\/span><br><span class=\"dCode dNoWrap\">4: int y = 2 * x;<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2207,7 +2207,7 @@
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "Cast <span class=\"dCode dNoWrap\">2&amp;#160;*&amp;#160;x<\/span> on line 4 to <span class=\"dCode dNoWrap\">int<\/span>.",
+					"data": "Cast <span class=\"dCode dNoWrap\">2 * x<\/span> on line 4 to <span class=\"dCode dNoWrap\">int<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
@@ -2227,7 +2227,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The code will not compile as is, so option A is not correct. The value <span class=\"dCode dNoWrap\">2&amp;#160;*&amp;#160;x<\/span> is automatically promoted to <span class=\"dCode dNoWrap\">long<\/span> and cannot be automatically stored in <span class=\"dCode dNoWrap\">y<\/span>, which is in an <span class=\"dCode dNoWrap\">int<\/span> value. Options B, C, and D solve this problem by reducing the <span class=\"dCode dNoWrap\">long<\/span> value to <span class=\"dCode dNoWrap\">int<\/span>. Option E does not solve the problem and actually makes it worse by attempting to place the value in a smaller data type. Option F solves the problem by increasing the data type of the assignment so that <span class=\"dCode dNoWrap\">long<\/span> is allowed.",
+				"data": "The code will not compile as is, so option A is not correct. The value <span class=\"dCode dNoWrap\">2 * x<\/span> is automatically promoted to <span class=\"dCode dNoWrap\">long<\/span> and cannot be automatically stored in <span class=\"dCode dNoWrap\">y<\/span>, which is in an <span class=\"dCode dNoWrap\">int<\/span> value. Options B, C, and D solve this problem by reducing the <span class=\"dCode dNoWrap\">long<\/span> value to <span class=\"dCode dNoWrap\">int<\/span>. Option E does not solve the problem and actually makes it worse by attempting to place the value in a smaller data type. Option F solves the problem by increasing the data type of the assignment so that <span class=\"dCode dNoWrap\">long<\/span> is allowed.",
 				"display_order": "1"
 			}]
 		}, {
@@ -2255,21 +2255,21 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;java.util.List&amp;#60;Integer&amp;#62;&amp;#160;list&amp;#160;=&amp;#160;new&amp;#160;java.util.ArrayList&amp;#60;Integer&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;list.add(10);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;list.add(14);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;for(int&amp;#160;x&amp;#160;:&amp;#160;list)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(x&amp;#160;+&amp;#160;\",&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;break;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: java.util.List&amp;#60;Integer&amp;#62; list = new java.util.ArrayList&amp;#60;Integer&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">4: list.add(10);<\/span><br><span class=\"dCode dNoWrap\">5: list.add(14);<\/span><br><span class=\"dCode dNoWrap\">6: for(int x : list) {<\/span><br><span class=\"dCode dNoWrap\">7:     System.out.print(x + \", \");<\/span><br><span class=\"dCode dNoWrap\">8:     break;<\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">10,&amp;#160;14,<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">10, 14,<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">10,&amp;#160;14<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">10, 14<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -2331,28 +2331,28 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;4;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;long&amp;#160;y&amp;#160;=&amp;#160;x&amp;#160;*&amp;#160;4&amp;#160;-&amp;#160;x++;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;if(y&amp;#60;10)&amp;#160;System.out.println(\"Too&amp;#160;Low\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;else&amp;#160;System.out.println(\"Just&amp;#160;right\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;else&amp;#160;System.out.println(\"Too&amp;#160;High\");<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int x = 4;<\/span><br><span class=\"dCode dNoWrap\">4: long y = x * 4 - x++;<\/span><br><span class=\"dCode dNoWrap\">5: if(y&amp;#60;10) System.out.println(\"Too Low\");<\/span><br><span class=\"dCode dNoWrap\">6: else System.out.println(\"Just right\");<\/span><br><span class=\"dCode dNoWrap\">7: else System.out.println(\"Too High\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Too&amp;#160;Low<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Too Low<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Just&amp;#160;Right<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Just Right<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Too&amp;#160;High<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Too High<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -2407,7 +2407,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;TernaryTester&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;5;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(x&amp;#160;&amp;#62;&amp;#160;2&amp;#160;?&amp;#160;x&amp;#160;&amp;#60;&amp;#160;4&amp;#160;?&amp;#160;10&amp;#160;:&amp;#160;8&amp;#160;:&amp;#160;7);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;}}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: public class TernaryTester {<\/span><br><span class=\"dCode dNoWrap\">2:     public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:           int x = 5;<\/span><br><span class=\"dCode dNoWrap\">4:           System.out.println(x &amp;#62; 2 ? x &amp;#60; 4 ? 10 : 8 : 7);<\/span><br><span class=\"dCode dNoWrap\">5: }}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2455,7 +2455,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "As you learned in the section \"Ternary Operator,\" although parentheses are not required, they do greatly increase code readability, such as the following equivalent statement:<br><br><span class=\"dCode dNoWrap\">System.out.println((x&amp;#160;&amp;#62;&amp;#160;2)&amp;#160;?&amp;#160;((x&amp;#160;&amp;#60;&amp;#160;4)&amp;#160;?&amp;#160;10&amp;#160;:&amp;#160;8)&amp;#160;:&amp;#160;7)<\/span><br><br>If we work backward, we can reduce the expression by applying the inner ternary statement first, reducing the problem to:<br><br><span class=\"dCode dNoWrap\">System.out.println((x&amp;#160;&amp;#62;&amp;#160;2)&amp;#160;?&amp;#160;8&amp;#160;:&amp;#160;7)<\/span><br><br>Since <span class=\"dCode dNoWrap\">x<\/span> is greater than <span class=\"dCode dNoWrap\">2<\/span>, the answer is <span class=\"dCode dNoWrap\">8<\/span>, or option D in this case.",
+				"data": "As you learned in the section \"Ternary Operator,\" although parentheses are not required, they do greatly increase code readability, such as the following equivalent statement:<br><br><span class=\"dCode dNoWrap\">System.out.println((x &amp;#62; 2) ? ((x &amp;#60; 4) ? 10 : 8) : 7)<\/span><br><br>If we work backward, we can reduce the expression by applying the inner ternary statement first, reducing the problem to:<br><br><span class=\"dCode dNoWrap\">System.out.println((x &amp;#62; 2) ? 8 : 7)<\/span><br><br>Since <span class=\"dCode dNoWrap\">x<\/span> is greater than <span class=\"dCode dNoWrap\">2<\/span>, the answer is <span class=\"dCode dNoWrap\">8<\/span>, or option D in this case.",
 				"display_order": "1"
 			}]
 		}, {
@@ -2483,42 +2483,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;boolean&amp;#160;x&amp;#160;=&amp;#160;true,&amp;#160;z&amp;#160;=&amp;#160;true;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;int&amp;#160;y&amp;#160;=&amp;#160;20;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;x&amp;#160;=&amp;#160;(y&amp;#160;!=&amp;#160;10)&amp;#160;^&amp;#160;(z=false);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;System.out.println(x+\",&amp;#160;\"+y+\",&amp;#160;\"+z);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: boolean x = true, z = true;<\/span><br><span class=\"dCode dNoWrap\">4: int y = 20;<\/span><br><span class=\"dCode dNoWrap\">5: x = (y != 10) ^ (z=false);<\/span><br><span class=\"dCode dNoWrap\">6: System.out.println(x+\", \"+y+\", \"+z);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">true,&amp;#160;10,&amp;#160;true<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">true, 10, true<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">true,&amp;#160;20,&amp;#160;false<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">true, 20, false<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">false,&amp;#160;20,&amp;#160;true<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">false, 20, true<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">false,&amp;#160;20,&amp;#160;false<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">false, 20, false<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">false,&amp;#160;20,&amp;#160;true<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">false, 20, true<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -2559,7 +2559,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "How many times will the following code print <span class=\"dCode dNoWrap\">\"Hello&amp;#160;World\"<\/span>?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;for(int&amp;#160;i=0;&amp;#160;i&amp;#60;10&amp;#160;;&amp;#160;)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;i&amp;#160;=&amp;#160;i++;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"Hello&amp;#160;World\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;}<\/span>",
+				"data": "How many times will the following code print <span class=\"dCode dNoWrap\">\"Hello World\"<\/span>?<br><br><span class=\"dCode dNoWrap\">3: for(int i=0; i&amp;#60;10 ; ) {<\/span><br><span class=\"dCode dNoWrap\">4:     i = i++;<\/span><br><span class=\"dCode dNoWrap\">5:     System.out.println(\"Hello World\");<\/span><br><span class=\"dCode dNoWrap\">6: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2635,7 +2635,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;byte&amp;#160;a&amp;#160;=&amp;#160;40,&amp;#160;b&amp;#160;=&amp;#160;50;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;byte&amp;#160;sum&amp;#160;=&amp;#160;(byte)&amp;#160;a&amp;#160;+&amp;#160;b;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;System.out.println(sum);<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">3: byte a = 40, b = 50;<\/span><br><span class=\"dCode dNoWrap\">4: byte sum = (byte) a + b;<\/span><br><span class=\"dCode dNoWrap\">5: System.out.println(sum);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2676,7 +2676,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Line 4 generates a possible loss of precision compiler error. The <span class=\"dCode dNoWrap\">cast<\/span> operator has the highest precedence, so it is evaluated first, casting <span class=\"dCode dNoWrap\">a<\/span> to a byte. Then, the addition is evaluated, causing both <span class=\"dCode dNoWrap\">a<\/span> and <span class=\"dCode dNoWrap\">b<\/span> to be promoted to <span class=\"dCode dNoWrap\">int<\/span> values. The value <span class=\"dCode dNoWrap\">90<\/span> is an <span class=\"dCode dNoWrap\">int<\/span> and cannot be assigned to the <span class=\"dCode dNoWrap\">byte<\/span> <span class=\"dCode dNoWrap\">sum<\/span> without an explicit cast, so the code does not compile. The code could be corrected with parentheses around <span class=\"dCode dNoWrap\">(a&amp;#160;+&amp;#160;b)<\/span>, in which case option C would be the correct answer.",
+				"data": "Line 4 generates a possible loss of precision compiler error. The <span class=\"dCode dNoWrap\">cast<\/span> operator has the highest precedence, so it is evaluated first, casting <span class=\"dCode dNoWrap\">a<\/span> to a byte. Then, the addition is evaluated, causing both <span class=\"dCode dNoWrap\">a<\/span> and <span class=\"dCode dNoWrap\">b<\/span> to be promoted to <span class=\"dCode dNoWrap\">int<\/span> values. The value <span class=\"dCode dNoWrap\">90<\/span> is an <span class=\"dCode dNoWrap\">int<\/span> and cannot be assigned to the <span class=\"dCode dNoWrap\">byte<\/span> <span class=\"dCode dNoWrap\">sum<\/span> without an explicit cast, so the code does not compile. The code could be corrected with parentheses around <span class=\"dCode dNoWrap\">(a + b)<\/span>, in which case option C would be the correct answer.",
 				"display_order": "1"
 			}]
 		}, {
@@ -2704,7 +2704,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;ArithmeticSample&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;5&amp;#160;*&amp;#160;4&amp;#160;%&amp;#160;3;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(x);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;}}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: public class ArithmeticSample {<\/span><br><span class=\"dCode dNoWrap\">2:    public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:           int x = 5 * 4 % 3;<\/span><br><span class=\"dCode dNoWrap\">4:           System.out.println(x);<\/span><br><span class=\"dCode dNoWrap\">5: }}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2745,7 +2745,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The <span class=\"dCode dNoWrap\">*<\/span> and <span class=\"dCode dNoWrap\">%<\/span> have the same operator precedence, so the expression is evaluated from left-to-right. The result of <span class=\"dCode dNoWrap\">5&amp;#160;*&amp;#160;4<\/span> is <span class=\"dCode dNoWrap\">20<\/span>, and <span class=\"dCode dNoWrap\">20&amp;#160;%&amp;#160;3<\/span> is <span class=\"dCode dNoWrap\">2<\/span> (<span class=\"dCode dNoWrap\">20<\/span> divided by <span class=\"dCode dNoWrap\">3<\/span> is <span class=\"dCode dNoWrap\">18<\/span>, the remainder is <span class=\"dCode dNoWrap\">2<\/span>). The output is <span class=\"dCode dNoWrap\">2<\/span> and option A is the correct answer.",
+				"data": "The <span class=\"dCode dNoWrap\">*<\/span> and <span class=\"dCode dNoWrap\">%<\/span> have the same operator precedence, so the expression is evaluated from left-to-right. The result of <span class=\"dCode dNoWrap\">5 * 4<\/span> is <span class=\"dCode dNoWrap\">20<\/span>, and <span class=\"dCode dNoWrap\">20 % 3<\/span> is <span class=\"dCode dNoWrap\">2<\/span> (<span class=\"dCode dNoWrap\">20<\/span> divided by <span class=\"dCode dNoWrap\">3<\/span> is <span class=\"dCode dNoWrap\">18<\/span>, the remainder is <span class=\"dCode dNoWrap\">2<\/span>). The output is <span class=\"dCode dNoWrap\">2<\/span> and option A is the correct answer.",
 				"display_order": "1"
 			}]
 		}, {
@@ -2773,7 +2773,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;String&amp;#160;s&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;if(x&amp;#160;==&amp;#160;s)&amp;#160;System.out.println(\"Success\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;else&amp;#160;System.out.println(\"Failure\");<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int x = 0;<\/span><br><span class=\"dCode dNoWrap\">4: String s = null;<\/span><br><span class=\"dCode dNoWrap\">5: if(x == s) System.out.println(\"Success\");<\/span><br><span class=\"dCode dNoWrap\">6: else System.out.println(\"Failure\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2835,7 +2835,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;x1&amp;#160;=&amp;#160;50,&amp;#160;x2&amp;#160;=&amp;#160;75;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;boolean&amp;#160;b&amp;#160;=&amp;#160;x1&amp;#160;&amp;#62;=&amp;#160;x2;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;if(b&amp;#160;=&amp;#160;true)&amp;#160;System.out.println(\"Success\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;else&amp;#160;System.out.println(\"Failure\");<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int x1 = 50, x2 = 75;<\/span><br><span class=\"dCode dNoWrap\">4: boolean b = x1 &amp;#62;= x2;<\/span><br><span class=\"dCode dNoWrap\">5: if(b = true) System.out.println(\"Success\");<\/span><br><span class=\"dCode dNoWrap\">6: else System.out.println(\"Failure\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2897,7 +2897,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;c&amp;#160;=&amp;#160;7;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;int&amp;#160;result&amp;#160;=&amp;#160;4;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;result&amp;#160;+=&amp;#160;++c;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;System.out.println(result);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int c = 7;<\/span><br><span class=\"dCode dNoWrap\">4: int result = 4;<\/span><br><span class=\"dCode dNoWrap\">5: result += ++c;<\/span><br><span class=\"dCode dNoWrap\">6: System.out.println(result);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -2973,28 +2973,28 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;1,&amp;#160;y&amp;#160;=&amp;#160;15;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;while&amp;#160;x&amp;#160;&amp;#60;&amp;#160;10<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;y&amp;#8211;&amp;#8211;;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;x++;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;System.out.println(x+\",&amp;#160;\"+y);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int x = 1, y = 15;<\/span><br><span class=\"dCode dNoWrap\">4: while x &amp;#60; 10<\/span><br><span class=\"dCode dNoWrap\">5:     y&amp;#8211;&amp;#8211;;<\/span><br><span class=\"dCode dNoWrap\">6:     x++;<\/span><br><span class=\"dCode dNoWrap\">7: System.out.println(x+\", \"+y);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">10,&amp;#160;5<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">10, 5<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">10,&amp;#160;6<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">10, 6<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">11,&amp;#160;5<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">11, 5<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -3021,7 +3021,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "This is actually a much simpler problem than it appears to be. The <span class=\"dCode dNoWrap\">while<\/span> statement line 4 is missing parentheses, so the code will not compile, and option E is the correct answer. If the parentheses were added, though, option F would be the correct answer since the loop does not use curly braces to include <span class=\"dCode dNoWrap\">x++<\/span> and the <span class=\"dCode dNoWrap\">boolean<\/span> expression never changes. Finally, if curly braces were added around both expressions, the output would be <span class=\"dCode dNoWrap\">10,&amp;#160;6<\/span> and option B would be correct.",
+				"data": "This is actually a much simpler problem than it appears to be. The <span class=\"dCode dNoWrap\">while<\/span> statement line 4 is missing parentheses, so the code will not compile, and option E is the correct answer. If the parentheses were added, though, option F would be the correct answer since the loop does not use curly braces to include <span class=\"dCode dNoWrap\">x++<\/span> and the <span class=\"dCode dNoWrap\">boolean<\/span> expression never changes. Finally, if curly braces were added around both expressions, the output would be <span class=\"dCode dNoWrap\">10, 6<\/span> and option B would be correct.",
 				"display_order": "1"
 			}]
 		}, {
@@ -3049,28 +3049,28 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;do&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;y&amp;#160;=&amp;#160;1;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(y++&amp;#160;+&amp;#160;\"&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;}&amp;#160;while(y&amp;#160;&amp;#60;=&amp;#160;10);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: do {<\/span><br><span class=\"dCode dNoWrap\">4:     int y = 1;<\/span><br><span class=\"dCode dNoWrap\">5:     System.out.print(y++ + \" \");<\/span><br><span class=\"dCode dNoWrap\">6: } while(y &amp;#60;= 10);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">1&amp;#160;2&amp;#160;3&amp;#160;4&amp;#160;5&amp;#160;6&amp;#160;7&amp;#160;8&amp;#160;9<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">1 2 3 4 5 6 7 8 9<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">1&amp;#160;2&amp;#160;3&amp;#160;4&amp;#160;5&amp;#160;6&amp;#160;7&amp;#160;8&amp;#160;9&amp;#160;10<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">1 2 3 4 5 6 7 8 9 10<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">1&amp;#160;2&amp;#160;3&amp;#160;4&amp;#160;5&amp;#160;6&amp;#160;7&amp;#160;8&amp;#160;9&amp;#160;10&amp;#160;11<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">1 2 3 4 5 6 7 8 9 10 11<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -3118,7 +3118,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;boolean&amp;#160;keepGoing&amp;#160;=&amp;#160;true;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;int&amp;#160;result&amp;#160;=&amp;#160;15,&amp;#160;i&amp;#160;=&amp;#160;10;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;do&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;i--;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;if(i==8)&amp;#160;keepGoing&amp;#160;=&amp;#160;false;<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;result&amp;#160;-=&amp;#160;2;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}&amp;#160;while(keepGoing);<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;System.out.println(result);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: boolean keepGoing = true;<\/span><br><span class=\"dCode dNoWrap\">4: int result = 15, i = 10;<\/span><br><span class=\"dCode dNoWrap\">5: do {<\/span><br><span class=\"dCode dNoWrap\">6:     i--;<\/span><br><span class=\"dCode dNoWrap\">7:     if(i==8) keepGoing = false;<\/span><br><span class=\"dCode dNoWrap\">8:     result -= 2;<\/span><br><span class=\"dCode dNoWrap\">9: } while(keepGoing);<\/span><br><span class=\"dCode dNoWrap\">10: System.out.println(result);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3194,7 +3194,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;count&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;ROW_LOOP:&amp;#160;for(int&amp;#160;row&amp;#160;=&amp;#160;1;&amp;#160;row&amp;#160;&amp;#60;=3;&amp;#160;row++)<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;for(int&amp;#160;col&amp;#160;=&amp;#160;1;&amp;#160;col&amp;#160;&amp;#60;=2&amp;#160;;&amp;#160;col++)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;if(row&amp;#160;*&amp;#160;col&amp;#160;%&amp;#160;2&amp;#160;==&amp;#160;0)&amp;#160;continue&amp;#160;ROW_LOOP;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;count++;<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;System.out.println(count);<\/span>",
+				"data": "What is the output of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int count = 0;<\/span><br><span class=\"dCode dNoWrap\">4: ROW_LOOP: for(int row = 1; row &amp;#60;=3; row++)<\/span><br><span class=\"dCode dNoWrap\">5:    for(int col = 1; col &amp;#60;=2 ; col++) {<\/span><br><span class=\"dCode dNoWrap\">6:        if(row * col % 2 == 0) continue ROW_LOOP;<\/span><br><span class=\"dCode dNoWrap\">7:        count++;<\/span><br><span class=\"dCode dNoWrap\">8:    }<\/span><br><span class=\"dCode dNoWrap\">9: System.out.println(count);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3242,7 +3242,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The expression on line 5 is <span class=\"dCode dNoWrap\">true<\/span> when <span class=\"dCode dNoWrap\">row&amp;#160;*&amp;#160;col<\/span> is an even number. On the first iteration, <span class=\"dCode dNoWrap\">row&amp;#160;=&amp;#160;1<\/span> and <span class=\"dCode dNoWrap\">col&amp;#160;=&amp;#160;1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">false<\/span>, the <span class=\"dCode dNoWrap\">continue<\/span> is skipped, and <span class=\"dCode dNoWrap\">count<\/span> is incremented to <span class=\"dCode dNoWrap\">1<\/span>. On the second iteration, <span class=\"dCode dNoWrap\">row&amp;#160;=&amp;#160;1<\/span> and <span class=\"dCode dNoWrap\">col&amp;#160;=&amp;#160;2<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">1<\/span>. On the third iteration, <span class=\"dCode dNoWrap\">row&amp;#160;=&amp;#160;2<\/span> and <span class=\"dCode dNoWrap\">col&amp;#160;=&amp;#160;1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">1<\/span>. On the fourth iteration, <span class=\"dCode dNoWrap\">row&amp;#160;=&amp;#160;3<\/span> and <span class=\"dCode dNoWrap\">col&amp;#160;=&amp;#160;1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">false<\/span>, the <span class=\"dCode dNoWrap\">continue<\/span> is skipped, and <span class=\"dCode dNoWrap\">count<\/span> is incremented to <span class=\"dCode dNoWrap\">2<\/span>. Finally, on the fifth and final iteration, <span class=\"dCode dNoWrap\">row&amp;#160;=&amp;#160;3<\/span> and <span class=\"dCode dNoWrap\">col&amp;#160;=&amp;#160;2<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">2<\/span>. The result of <span class=\"dCode dNoWrap\">2<\/span> is displayed, so the answer is option B.",
+				"data": "The expression on line 5 is <span class=\"dCode dNoWrap\">true<\/span> when <span class=\"dCode dNoWrap\">row * col<\/span> is an even number. On the first iteration, <span class=\"dCode dNoWrap\">row = 1<\/span> and <span class=\"dCode dNoWrap\">col = 1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">false<\/span>, the <span class=\"dCode dNoWrap\">continue<\/span> is skipped, and <span class=\"dCode dNoWrap\">count<\/span> is incremented to <span class=\"dCode dNoWrap\">1<\/span>. On the second iteration, <span class=\"dCode dNoWrap\">row = 1<\/span> and <span class=\"dCode dNoWrap\">col = 2<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">1<\/span>. On the third iteration, <span class=\"dCode dNoWrap\">row = 2<\/span> and <span class=\"dCode dNoWrap\">col = 1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">1<\/span>. On the fourth iteration, <span class=\"dCode dNoWrap\">row = 3<\/span> and <span class=\"dCode dNoWrap\">col = 1<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">false<\/span>, the <span class=\"dCode dNoWrap\">continue<\/span> is skipped, and <span class=\"dCode dNoWrap\">count<\/span> is incremented to <span class=\"dCode dNoWrap\">2<\/span>. Finally, on the fifth and final iteration, <span class=\"dCode dNoWrap\">row = 3<\/span> and <span class=\"dCode dNoWrap\">col = 2<\/span>, so the expression on line 6 is <span class=\"dCode dNoWrap\">true<\/span> and the <span class=\"dCode dNoWrap\">continue<\/span> ends the outer loop with <span class=\"dCode dNoWrap\">count<\/span> still at <span class=\"dCode dNoWrap\">2<\/span>. The result of <span class=\"dCode dNoWrap\">2<\/span> is displayed, so the answer is option B.",
 				"display_order": "1"
 			}]
 		}, {
@@ -3270,7 +3270,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;int&amp;#160;m&amp;#160;=&amp;#160;9,&amp;#160;n&amp;#160;=&amp;#160;1,&amp;#160;x&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;while(m&amp;#160;&amp;#62;&amp;#160;n)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;m--;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;n&amp;#160;+=&amp;#160;2;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;x&amp;#160;+=&amp;#160;m&amp;#160;+&amp;#160;n;<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;System.out.println(x);<\/span>",
+				"data": "What is the result of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: int m = 9, n = 1, x = 0;<\/span><br><span class=\"dCode dNoWrap\">4: while(m &amp;#62; n) {<\/span><br><span class=\"dCode dNoWrap\">5:    m--;<\/span><br><span class=\"dCode dNoWrap\">6:    n += 2;<\/span><br><span class=\"dCode dNoWrap\">7:    x += m + n;<\/span><br><span class=\"dCode dNoWrap\">8: }<\/span><br><span class=\"dCode dNoWrap\">9: System.out.println(x);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3318,7 +3318,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Prior to the first iteration, <span class=\"dCode dNoWrap\">m&amp;#160;=&amp;#160;9<\/span>, <span class=\"dCode dNoWrap\">n&amp;#160;=&amp;#160;1<\/span>, and <span class=\"dCode dNoWrap\">x&amp;#160;=&amp;#160;0<\/span>. After the iteration of the first loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">8<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">3<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m&amp;#160;+&amp;#160;n<\/span>, <span class=\"dCode dNoWrap\">0<\/span> + <span class=\"dCode dNoWrap\">11&amp;#160;=&amp;#160;11<\/span>. After the iteration of the second loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">7<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">5<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m&amp;#160;+&amp;#160;n<\/span>, <span class=\"dCode dNoWrap\">11&amp;#160;+&amp;#160;12&amp;#160;=&amp;#160;23<\/span>. After the iteration of the third loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">6<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">7<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m&amp;#160;+&amp;#160;n<\/span>, <span class=\"dCode dNoWrap\">23&amp;#160;+&amp;#160;13&amp;#160;=&amp;#160;36<\/span>. On the fourth iteration of the loop, <span class=\"dCode dNoWrap\">m&amp;#160;&amp;#62;&amp;#160;n<\/span> evaluates to <span class=\"dCode dNoWrap\">false<\/span>, as <span class=\"dCode dNoWrap\">6&amp;#160;&amp;#60;&amp;#160;7<\/span> is not <span class=\"dCode dNoWrap\">true<\/span>. The loop ends and the most recent value of <span class=\"dCode dNoWrap\">x<\/span>, <span class=\"dCode dNoWrap\">35<\/span>, is output, so the correct answer is option D.",
+				"data": "Prior to the first iteration, <span class=\"dCode dNoWrap\">m = 9<\/span>, <span class=\"dCode dNoWrap\">n = 1<\/span>, and <span class=\"dCode dNoWrap\">x = 0<\/span>. After the iteration of the first loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">8<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">3<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m + n<\/span>, <span class=\"dCode dNoWrap\">0<\/span> + <span class=\"dCode dNoWrap\">11 = 11<\/span>. After the iteration of the second loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">7<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">5<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m + n<\/span>, <span class=\"dCode dNoWrap\">11 + 12 = 23<\/span>. After the iteration of the third loop, <span class=\"dCode dNoWrap\">m<\/span> is updated to <span class=\"dCode dNoWrap\">6<\/span>, <span class=\"dCode dNoWrap\">n<\/span> to <span class=\"dCode dNoWrap\">7<\/span>, and <span class=\"dCode dNoWrap\">x<\/span> to the sum of the new values for <span class=\"dCode dNoWrap\">m + n<\/span>, <span class=\"dCode dNoWrap\">23 + 13 = 36<\/span>. On the fourth iteration of the loop, <span class=\"dCode dNoWrap\">m &amp;#62; n<\/span> evaluates to <span class=\"dCode dNoWrap\">false<\/span>, as <span class=\"dCode dNoWrap\">6 &amp;#60; 7<\/span> is not <span class=\"dCode dNoWrap\">true<\/span>. The loop ends and the most recent value of <span class=\"dCode dNoWrap\">x<\/span>, <span class=\"dCode dNoWrap\">35<\/span>, is output, so the correct answer is option D.",
 				"display_order": "1"
 			}]
 		}, {
@@ -3346,7 +3346,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;final&amp;#160;char&amp;#160;a&amp;#160;=&amp;#160;\'A\',&amp;#160;d&amp;#160;=&amp;#160;\'D\';<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;char&amp;#160;grade&amp;#160;=&amp;#160;\'B\';<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;switch(grade)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;case&amp;#160;a:<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;case&amp;#160;\'B\':&amp;#160;System.out.print(\"great\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;case&amp;#160;\'C\':&amp;#160;System.out.print(\"good\");&amp;#160;break;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;case&amp;#160;d:<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;case&amp;#160;\'F\':&amp;#160;System.out.print(\"not&amp;#160;good\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;}<\/span>",
+				"data": "What is the result of the following code snippet?<br><br><span class=\"dCode dNoWrap\">3: final char a = \'A\', d = \'D\';<\/span><br><span class=\"dCode dNoWrap\">4: char grade = \'B\';<\/span><br><span class=\"dCode dNoWrap\">5: switch(grade) {<\/span><br><span class=\"dCode dNoWrap\">6:    case a:<\/span><br><span class=\"dCode dNoWrap\">7:    case \'B\': System.out.print(\"great\");<\/span><br><span class=\"dCode dNoWrap\">8:    case \'C\': System.out.print(\"good\"); break;<\/span><br><span class=\"dCode dNoWrap\">9:    case d:<\/span><br><span class=\"dCode dNoWrap\">10:    case \'F\': System.out.print(\"not good\");<\/span><br><span class=\"dCode dNoWrap\">11: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3415,14 +3415,14 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is output by the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;Fish&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;numFish&amp;#160;=&amp;#160;4;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;String&amp;#160;fishType&amp;#160;=&amp;#160;\"tuna\";<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;String&amp;#160;anotherFish&amp;#160;=&amp;#160;numFish&amp;#160;+&amp;#160;1;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(anotherFish&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;fishType);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(numFish&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;1);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is output by the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1: public class Fish {<\/span><br><span class=\"dCode dNoWrap\">2:  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:    int numFish = 4;<\/span><br><span class=\"dCode dNoWrap\">4:    String fishType = \"tuna\";<\/span><br><span class=\"dCode dNoWrap\">5:    String anotherFish = numFish + 1;<\/span><br><span class=\"dCode dNoWrap\">6:    System.out.println(anotherFish + \" \" + fishType);<\/span><br><span class=\"dCode dNoWrap\">7:    System.out.println(numFish + \" \" + 1);<\/span><br><span class=\"dCode dNoWrap\">8:  } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">4&amp;#160;1<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">4 1<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -3443,7 +3443,7 @@
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">5&amp;#160;tuna<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">5 tuna<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -3470,7 +3470,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Line 5 does not compile. This question is checking to see if you are paying attention to the types. <span class=\"dCode dNoWrap\">numFish<\/span> is an <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">1<\/span> is an <span class=\"dCode dNoWrap\">int<\/span>. Therefore, we use numeric addition and get 5. The problem is that we can\'t store an <span class=\"dCode dNoWrap\">int<\/span> in a <span class=\"dCode dNoWrap\">String<\/span> variable. Supposing line 5 said <span class=\"dCode dNoWrap\">String&amp;#160;anotherFish&amp;#160;=&amp;#160;numFish&amp;#160;+&amp;#160;1&amp;#160;+&amp;#160;\"\";<\/span>. In that case, the answer would be options A and D. The variable defined on line 5 would be the string <span class=\"dCode dNoWrap\">\"5\"<\/span>, and both output statements would use concatenation.",
+				"data": "Line 5 does not compile. This question is checking to see if you are paying attention to the types. <span class=\"dCode dNoWrap\">numFish<\/span> is an <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">1<\/span> is an <span class=\"dCode dNoWrap\">int<\/span>. Therefore, we use numeric addition and get 5. The problem is that we can\'t store an <span class=\"dCode dNoWrap\">int<\/span> in a <span class=\"dCode dNoWrap\">String<\/span> variable. Supposing line 5 said <span class=\"dCode dNoWrap\">String anotherFish = numFish + 1 + \"\";<\/span>. In that case, the answer would be options A and D. The variable defined on line 5 would be the string <span class=\"dCode dNoWrap\">\"5\"<\/span>, and both output statements would use concatenation.",
 				"display_order": "1"
 			}]
 		}, {
@@ -3498,7 +3498,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are output by this code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;String&amp;#160;s&amp;#160;=&amp;#160;\"Hello\";<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;String&amp;#160;t&amp;#160;=&amp;#160;new&amp;#160;String(s);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;if&amp;#160;(\"Hello\".equals(s))&amp;#160;System.out.println(\"one\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;if&amp;#160;(t&amp;#160;==&amp;#160;s)&amp;#160;System.out.println(\"two\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;if&amp;#160;(t.equals(s))&amp;#160;System.out.println(\"three\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;if&amp;#160;(\"Hello\"&amp;#160;==&amp;#160;s)&amp;#160;System.out.println(\"four\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;if&amp;#160;(\"Hello\"&amp;#160;==&amp;#160;t)&amp;#160;System.out.println(\"five\");<\/span>",
+				"data": "Which of the following are output by this code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3: String s = \"Hello\";<\/span><br><span class=\"dCode dNoWrap\">4: String t = new String(s);<\/span><br><span class=\"dCode dNoWrap\">5: if (\"Hello\".equals(s)) System.out.println(\"one\");<\/span><br><span class=\"dCode dNoWrap\">6: if (t == s) System.out.println(\"two\");<\/span><br><span class=\"dCode dNoWrap\">7: if (t.equals(s)) System.out.println(\"three\");<\/span><br><span class=\"dCode dNoWrap\">8: if (\"Hello\" == s) System.out.println(\"four\");<\/span><br><span class=\"dCode dNoWrap\">9: if (\"Hello\" == t) System.out.println(\"five\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3657,7 +3657,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">7:&amp;#160;StringBuilder&amp;#160;sb&amp;#160;=&amp;#160;new&amp;#160;StringBuilder();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;sb.append(\"aaa\").insert(1,&amp;#160;\"bb\").insert(4,&amp;#160;\"ccc\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;System.out.println(sb);<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">7: StringBuilder sb = new StringBuilder();<\/span><br><span class=\"dCode dNoWrap\">8: sb.append(\"aaa\").insert(1, \"bb\").insert(4, \"ccc\");<\/span><br><span class=\"dCode dNoWrap\">9: System.out.println(sb);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3733,7 +3733,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">2:&amp;#160;String&amp;#160;s1&amp;#160;=&amp;#160;\"java\";<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;StringBuilder&amp;#160;s2&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"java\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;if&amp;#160;(s1&amp;#160;==&amp;#160;s2)<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;if&amp;#160;(s1.equals(s2))<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;System.out.print(\"2\");<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">2: String s1 = \"java\";<\/span><br><span class=\"dCode dNoWrap\">3: StringBuilder s2 = new StringBuilder(\"java\");<\/span><br><span class=\"dCode dNoWrap\">4: if (s1 == s2)<\/span><br><span class=\"dCode dNoWrap\">5:  System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">6: if (s1.equals(s2))<\/span><br><span class=\"dCode dNoWrap\">7:  System.out.print(\"2\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3809,35 +3809,35 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Lion&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;roar(String&amp;#160;roar1,&amp;#160;StringBuilder&amp;#160;roar2)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;roar1.concat(\"!!!\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;roar2.append(\"!!!\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;String&amp;#160;roar1&amp;#160;=&amp;#160;\"roar\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;StringBuilder&amp;#160;roar2&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"roar\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;new&amp;#160;Lion().roar(roar1,&amp;#160;roar2);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;System.out.println(roar1&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;roar2);<\/span><br><span class=\"dCode dNoWrap\">}&amp;#160;}<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">public class Lion {<\/span><br><span class=\"dCode dNoWrap\">  public void roar(String roar1, StringBuilder roar2) {<\/span><br><span class=\"dCode dNoWrap\">    roar1.concat(\"!!!\");<\/span><br><span class=\"dCode dNoWrap\">    roar2.append(\"!!!\");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">  String roar1 = \"roar\";<\/span><br><span class=\"dCode dNoWrap\">  StringBuilder roar2 = new StringBuilder(\"roar\");<\/span><br><span class=\"dCode dNoWrap\">  new Lion().roar(roar1, roar2);<\/span><br><span class=\"dCode dNoWrap\">  System.out.println(roar1 + \" \" + roar2);<\/span><br><span class=\"dCode dNoWrap\">} }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">roar&amp;#160;roar<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">roar roar<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">roar&amp;#160;roar!!!<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">roar roar!!!<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">roar!!!&amp;#160;roar<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">roar!!! roar<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">roar!!!&amp;#160;roar!!!<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">roar!!! roar!!!<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -3885,7 +3885,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which are the results of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">String&amp;#160;letters&amp;#160;=&amp;#160;\"abcdef\";<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.length());<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.charAt(3));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.charAt(6));<\/span>",
+				"data": "Which are the results of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">String letters = \"abcdef\";<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.length());<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.charAt(3));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(letters.charAt(6));<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -3961,7 +3961,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which are the results of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">String&amp;#160;numbers&amp;#160;=&amp;#160;\"012345678\";<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(1,&amp;#160;3));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(7,&amp;#160;7));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(7));<\/span>",
+				"data": "Which are the results of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">String numbers = \"012345678\";<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(1, 3));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(7, 7));<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers.substring(7));<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4044,7 +4044,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code? <br><br><span class=\"dCode dNoWrap\">3:&amp;#160;String&amp;#160;s&amp;#160;=&amp;#160;\"purr\";<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;s.toUpperCase();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;s.trim();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;s.substring(1,&amp;#160;3);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;s&amp;#160;+=&amp;#160;\"&amp;#160;two\";<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;System.out.println(s.length());<\/span>",
+				"data": "What is the result of the following code? <br><br><span class=\"dCode dNoWrap\">3: String s = \"purr\";<\/span><br><span class=\"dCode dNoWrap\">4: s.toUpperCase();<\/span><br><span class=\"dCode dNoWrap\">5: s.trim();<\/span><br><span class=\"dCode dNoWrap\">6: s.substring(1, 3);<\/span><br><span class=\"dCode dNoWrap\">7: s += \" two\";<\/span><br><span class=\"dCode dNoWrap\">8: System.out.println(s.length());<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4120,7 +4120,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">13:&amp;#160;String&amp;#160;a&amp;#160;=&amp;#160;\"\";<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;a&amp;#160;+=&amp;#160;2;<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;a&amp;#160;+=&amp;#160;\'c\';<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;a&amp;#160;+=&amp;#160;false;&amp;#160;&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;if&amp;#160;(&amp;#160;a&amp;#160;==&amp;#160;\"2cfalse\")&amp;#160;System.out.println(\"==\");<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;if&amp;#160;(&amp;#160;a.equals(\"2cfalse\"))&amp;#160;System.out.println(\"equals\");<\/span>",
+				"data": "What is the result of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">13: String a = \"\";<\/span><br><span class=\"dCode dNoWrap\">14: a += 2;<\/span><br><span class=\"dCode dNoWrap\">15: a += \'c\';<\/span><br><span class=\"dCode dNoWrap\">16: a += false;  <\/span><br><span class=\"dCode dNoWrap\">17: if ( a == \"2cfalse\") System.out.println(\"==\");<\/span><br><span class=\"dCode dNoWrap\">18: if ( a.equals(\"2cfalse\")) System.out.println(\"equals\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4175,7 +4175,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "<span class=\"dCode dNoWrap\">a&amp;#160;+=&amp;#160;2<\/span> expands to <span class=\"dCode dNoWrap\">a&amp;#160;=&amp;#160;a&amp;#160;+&amp;#160;2<\/span>. A <span class=\"dCode dNoWrap\">String<\/span> concatenated with any other type gives a <span class=\"dCode dNoWrap\">String<\/span>. Lines 14, 15, and 16 all append to <span class=\"dCode dNoWrap\">a<\/span>, giving a result of <span class=\"dCode dNoWrap\">\"2cfalse\"<\/span>. The <span class=\"dCode dNoWrap\">if<\/span> statement on line 18 returns <span class=\"dCode dNoWrap\">false<\/span> because the values of the two <span class=\"dCode dNoWrap\">String<\/span> objects are the same using object equality. The <span class=\"dCode dNoWrap\">if<\/span> statement on line 17 returns <span class=\"dCode dNoWrap\">false<\/span> because the two <span class=\"dCode dNoWrap\">String<\/span> objects are not the same in memory. One comes directly from the string pool and the other comes from building using <span class=\"dCode dNoWrap\">String<\/span> operations.",
+				"data": "<span class=\"dCode dNoWrap\">a += 2<\/span> expands to <span class=\"dCode dNoWrap\">a = a + 2<\/span>. A <span class=\"dCode dNoWrap\">String<\/span> concatenated with any other type gives a <span class=\"dCode dNoWrap\">String<\/span>. Lines 14, 15, and 16 all append to <span class=\"dCode dNoWrap\">a<\/span>, giving a result of <span class=\"dCode dNoWrap\">\"2cfalse\"<\/span>. The <span class=\"dCode dNoWrap\">if<\/span> statement on line 18 returns <span class=\"dCode dNoWrap\">false<\/span> because the values of the two <span class=\"dCode dNoWrap\">String<\/span> objects are the same using object equality. The <span class=\"dCode dNoWrap\">if<\/span> statement on line 17 returns <span class=\"dCode dNoWrap\">false<\/span> because the two <span class=\"dCode dNoWrap\">String<\/span> objects are not the same in memory. One comes directly from the string pool and the other comes from building using <span class=\"dCode dNoWrap\">String<\/span> operations.",
 				"display_order": "1"
 			}]
 		}, {
@@ -4203,7 +4203,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">4:&amp;#160;int&amp;#160;total&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;StringBuilder&amp;#160;letters&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"abcdefg\");<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;total&amp;#160;+=&amp;#160;letters.substring(1,&amp;#160;2).length();<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;total&amp;#160;+=&amp;#160;letters.substring(6,&amp;#160;6).length();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;total&amp;#160;+=&amp;#160;letters.substring(6,&amp;#160;5).length();<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;System.out.println(total);<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">4: int total = 0;<\/span><br><span class=\"dCode dNoWrap\">5: StringBuilder letters = new StringBuilder(\"abcdefg\");<\/span><br><span class=\"dCode dNoWrap\">6: total += letters.substring(1, 2).length();<\/span><br><span class=\"dCode dNoWrap\">7: total += letters.substring(6, 6).length();<\/span><br><span class=\"dCode dNoWrap\">8: total += letters.substring(6, 5).length();<\/span><br><span class=\"dCode dNoWrap\">9: System.out.println(total);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4279,7 +4279,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">StringBuilder&amp;#160;numbers&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"0123456789\");<\/span><br><span class=\"dCode dNoWrap\">numbers.delete(2,&amp;#160;&amp;#160;8);<\/span><br><span class=\"dCode dNoWrap\">numbers.append(\"-\").insert(2,&amp;#160;\"+\");<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers);<\/span>",
+				"data": "What is the result of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">StringBuilder numbers = new StringBuilder(\"0123456789\");<\/span><br><span class=\"dCode dNoWrap\">numbers.delete(2,  8);<\/span><br><span class=\"dCode dNoWrap\">numbers.append(\"-\").insert(2, \"+\");<\/span><br><span class=\"dCode dNoWrap\">System.out.println(numbers);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4355,7 +4355,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">StringBuilder&amp;#160;b&amp;#160;=&amp;#160;\"rumble\";<\/span><br><span class=\"dCode dNoWrap\">b.append(4).deleteCharAt(3).delete(3,&amp;#160;b.length()&amp;#160;-&amp;#160;1);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(b);<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">StringBuilder b = \"rumble\";<\/span><br><span class=\"dCode dNoWrap\">b.append(4).deleteCharAt(3).delete(3, b.length() - 1);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(b);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4403,7 +4403,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "This is a trick question. The first line does not compile because you cannot assign a <span class=\"dCode dNoWrap\">String<\/span> to a <span class=\"dCode dNoWrap\">StringBuilder<\/span>. If that line were <span class=\"dCode dNoWrap\">StringBuilder&amp;#160;b&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"rumble\")<\/span>, the code would compile and print <span class=\"dCode dNoWrap\">rum4<\/span>. Watch out for this sort of trick on the exam. You could easily spend a minute working out the character positions for no reason at all.",
+				"data": "This is a trick question. The first line does not compile because you cannot assign a <span class=\"dCode dNoWrap\">String<\/span> to a <span class=\"dCode dNoWrap\">StringBuilder<\/span>. If that line were <span class=\"dCode dNoWrap\">StringBuilder b = new StringBuilder(\"rumble\")<\/span>, the code would compile and print <span class=\"dCode dNoWrap\">rum4<\/span>. Watch out for this sort of trick on the exam. You could easily spend a minute working out the character positions for no reason at all.",
 				"display_order": "1"
 			}]
 		}, {
@@ -4431,7 +4431,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can replace line 4 to print <span class=\"dCode dNoWrap\">\"avaJ\"<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;StringBuilder&amp;#160;puzzle&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"Java\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;System.out.println(puzzle);<\/span>",
+				"data": "Which of the following can replace line 4 to print <span class=\"dCode dNoWrap\">\"avaJ\"<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">3: StringBuilder puzzle = new StringBuilder(\"Java\");<\/span><br><span class=\"dCode dNoWrap\">4: \/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">5: System.out.println(puzzle);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4445,21 +4445,21 @@
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").substring(0,&amp;#160;4);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").substring(0, 4);<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").delete(0,&amp;#160;3).deleteCharAt(puzzle.length()&amp;#160;-&amp;#160;1);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").delete(0, 3).deleteCharAt(puzzle.length() - 1);<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").delete(0,&amp;#160;3).deleteCharAt(puzzle.length());<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">puzzle.append(\"vaJ$\").delete(0, 3).deleteCharAt(puzzle.length());<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -4507,42 +4507,42 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int[][]&amp;#160;scores&amp;#160;=&amp;#160;new&amp;#160;int[5][];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int[][] scores = new int[5][];<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Object[][][]&amp;#160;cubbies&amp;#160;=&amp;#160;new&amp;#160;Object[3][0][5];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Object[][][] cubbies = new Object[3][0][5];<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String&amp;#160;beans[]&amp;#160;=&amp;#160;new&amp;#160;beans[6];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String beans[] = new beans[6];<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">java.util.Date[]&amp;#160;dates[]&amp;#160;=&amp;#160;new&amp;#160;java.util.Date[2][];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">java.util.Date[] dates[] = new java.util.Date[2][];<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int[][]&amp;#160;types&amp;#160;=&amp;#160;new&amp;#160;int[];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int[][] types = new int[];<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int[][]&amp;#160;java&amp;#160;=&amp;#160;new&amp;#160;int[][];<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int[][] java = new int[][];<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -4576,49 +4576,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of these compile when replacing line 8? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7:&amp;#160;char[]c&amp;#160;=&amp;#160;new&amp;#160;char[2];<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span>",
+				"data": "Which of these compile when replacing line 8? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7: char[]c = new char[2];<\/span><br><span class=\"dCode dNoWrap\">8: \/\/ INSERT CODE HERE<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.capacity;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.capacity;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.capacity();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.capacity();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.length;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.length;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.length();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.length();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.size;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.size;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;c.size();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = c.size();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -4659,49 +4659,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of these compile when replacing line 8? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7:&amp;#160;ArrayList&amp;#160;l&amp;#160;=&amp;#160;new&amp;#160;ArrayList();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span>",
+				"data": "Which of these compile when replacing line 8? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7: ArrayList l = new ArrayList();<\/span><br><span class=\"dCode dNoWrap\">8: \/\/ INSERT CODE HERE<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.capacity;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = l.capacity;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.capacity();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = l.capacity();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": " <span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.length;<\/span>",
+					"data": " <span class=\"dCode dNoWrap\">int length = l.length;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.length();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = l.length();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.size;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = l.size;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">int&amp;#160;length&amp;#160;=&amp;#160;l.size();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">int length = l.size();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -4894,7 +4894,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;List&amp;#60;String&amp;#62;&amp;#160;list&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;String&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;list.add(\"one\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;list.add(\"two\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;list.add(7);<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;for(String&amp;#160;s&amp;#160;:&amp;#160;list)&amp;#160;&amp;#160;System.out.print(s);<\/span>",
+				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">6:  List&amp;#60;String&amp;#62; list = new ArrayList&amp;#60;String&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">7:  list.add(\"one\");<\/span><br><span class=\"dCode dNoWrap\">8:  list.add(\"two\");<\/span><br><span class=\"dCode dNoWrap\">9:  list.add(7);<\/span><br><span class=\"dCode dNoWrap\">10: for(String s : list)  System.out.print(s);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -4963,7 +4963,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;ArrayList&amp;#60;Integer&amp;#62;&amp;#160;values&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;values.add(4);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;values.add(5);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;values.set(1,&amp;#160;6);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;values.remove(0);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;for&amp;#160;(Integer&amp;#160;v&amp;#160;:&amp;#160;values)&amp;#160;System.out.print(v);<\/span>",
+				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">3: ArrayList&amp;#60;Integer&amp;#62; values = new ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">4: values.add(4);<\/span><br><span class=\"dCode dNoWrap\">5: values.add(5);<\/span><br><span class=\"dCode dNoWrap\">6: values.set(1, 6);<\/span><br><span class=\"dCode dNoWrap\">7: values.remove(0);<\/span><br><span class=\"dCode dNoWrap\">8: for (Integer v : values) System.out.print(v);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5046,7 +5046,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">int[]&amp;#160;random&amp;#160;=&amp;#160;{&amp;#160;6,&amp;#160;-4,&amp;#160;12,&amp;#160;0,&amp;#160;-10&amp;#160;};<\/span><br><span class=\"dCode dNoWrap\">int&amp;#160;x&amp;#160;=&amp;#160;12;<\/span><br><span class=\"dCode dNoWrap\">int&amp;#160;y&amp;#160;=&amp;#160;Arrays.binarySearch(random,&amp;#160;x);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(y);<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">int[] random = { 6, -4, 12, 0, -10 };<\/span><br><span class=\"dCode dNoWrap\">int x = 12;<\/span><br><span class=\"dCode dNoWrap\">int y = Arrays.binarySearch(random, x);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(y);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5122,7 +5122,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">4:&amp;#160;List&amp;#60;Integer&amp;#62;&amp;#160;list&amp;#160;=&amp;#160;Arrays.asList(10,&amp;#160;4,&amp;#160;-1,&amp;#160;5);<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;Collections.sort(list);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;Integer&amp;#160;array[]&amp;#160;=&amp;#160;list.toArray(new&amp;#160;Integer[4]);<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;System.out.println(array[0]);<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">4: List&amp;#60;Integer&amp;#62; list = Arrays.asList(10, 4, -1, 5);<\/span><br><span class=\"dCode dNoWrap\">5: Collections.sort(list);<\/span><br><span class=\"dCode dNoWrap\">6: Integer array[] = list.toArray(new Integer[4]);<\/span><br><span class=\"dCode dNoWrap\">7: System.out.println(array[0]);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5198,7 +5198,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">6:&amp;#160;String&amp;#160;[]&amp;#160;names&amp;#160;=&amp;#160;{\"Tom\",&amp;#160;\"Dick\",&amp;#160;\"Harry\"};<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;List&amp;#60;String&amp;#62;&amp;#160;list&amp;#160;=&amp;#160;names.asList();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;list.set(0,&amp;#160;\"Sue\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;System.out.println(names[0]);<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">6: String [] names = {\"Tom\", \"Dick\", \"Harry\"};<\/span><br><span class=\"dCode dNoWrap\">7: List&amp;#60;String&amp;#62; list = names.asList();<\/span><br><span class=\"dCode dNoWrap\">8: list.set(0, \"Sue\");<\/span><br><span class=\"dCode dNoWrap\">9: System.out.println(names[0]);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5267,7 +5267,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62;&amp;#160;hex&amp;#160;=&amp;#160;Arrays.asList(\"30\",&amp;#160;\"8\",&amp;#160;\"3A\",&amp;#160;\"FF\");<\/span><br><span class=\"dCode dNoWrap\">Collections.sort(hex);<\/span><br><span class=\"dCode dNoWrap\">int&amp;#160;x&amp;#160;=&amp;#160;Collections.binarySearch(hex,&amp;#160;\"8\");<\/span><br><span class=\"dCode dNoWrap\">int&amp;#160;y&amp;#160;=&amp;#160;Collections.binarySearch(hex,&amp;#160;\"3A\");<\/span><br><span class=\"dCode dNoWrap\">int&amp;#160;z&amp;#160;=&amp;#160;Collections.binarySearch(hex,&amp;#160;\"4F\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;System.out.println(x&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;y&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;z);<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62; hex = Arrays.asList(\"30\", \"8\", \"3A\", \"FF\");<\/span><br><span class=\"dCode dNoWrap\">Collections.sort(hex);<\/span><br><span class=\"dCode dNoWrap\">int x = Collections.binarySearch(hex, \"8\");<\/span><br><span class=\"dCode dNoWrap\">int y = Collections.binarySearch(hex, \"3A\");<\/span><br><span class=\"dCode dNoWrap\">int z = Collections.binarySearch(hex, \"4F\");<\/span><br><span class=\"dCode dNoWrap\"> System.out.println(x + \" \" + y + \" \" + z);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5315,7 +5315,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "After sorting, <span class=\"dCode dNoWrap\">hex<\/span> contains <span class=\"dCode dNoWrap\">[30,&amp;#160;3A,&amp;#160;8,&amp;#160;FF]<\/span>. Remember that numbers sort before letters and strings sort alphabetically. This makes 30 comes before 8. A binary search correctly finds 8 at index 2 and 3A at index 1. It cannot find 4F but notices it should be at index 2. The rule when an item isn\'t found is to negate that index and subtract 1. Therefore we get &amp;#8211;2&amp;#8211;1, which is &amp;#8211;3.",
+				"data": "After sorting, <span class=\"dCode dNoWrap\">hex<\/span> contains <span class=\"dCode dNoWrap\">[30, 3A, 8, FF]<\/span>. Remember that numbers sort before letters and strings sort alphabetically. This makes 30 comes before 8. A binary search correctly finds 8 at index 2 and 3A at index 1. It cannot find 4F but notices it should be at index 2. The rule when an item isn\'t found is to negate that index and subtract 1. Therefore we get &amp;#8211;2&amp;#8211;1, which is &amp;#8211;3.",
 				"display_order": "1"
 			}]
 		}, {
@@ -5343,7 +5343,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are true statements about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">4:&amp;#160;List&amp;#60;Integer&amp;#62;&amp;#160;ages&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;ages.add(Integer.parseInt(\"5\"));<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;ages.add(Integer.valueOf(\"6\"));<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;ages.add(7);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;ages.add(null);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;for&amp;#160;(int&amp;#160;age&amp;#160;:&amp;#160;ages)&amp;#160;System.out.print(age);<\/span>",
+				"data": "Which of the following are true statements about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">4: List&amp;#60;Integer&amp;#62; ages = new ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">5: ages.add(Integer.parseInt(\"5\"));<\/span><br><span class=\"dCode dNoWrap\">6: ages.add(Integer.valueOf(\"6\"));<\/span><br><span class=\"dCode dNoWrap\">7: ages.add(7);<\/span><br><span class=\"dCode dNoWrap\">8: ages.add(null);<\/span><br><span class=\"dCode dNoWrap\">9: for (int age : ages) System.out.print(age);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5412,7 +5412,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62;&amp;#160;one&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;String&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">one.add(\"abc\");<\/span><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62;&amp;#160;two&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">two.add(\"abc\");<\/span><br><span class=\"dCode dNoWrap\">if&amp;#160;(one&amp;#160;==&amp;#160;two)&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;System.out.println(\"A\");<\/span><br><span class=\"dCode dNoWrap\">else&amp;#160;if&amp;#160;(one.equals(two))<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;System.out.println(\"B\");<\/span><br><span class=\"dCode dNoWrap\">else&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;System.out.println(\"C\");<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62; one = new ArrayList&amp;#60;String&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">one.add(\"abc\");<\/span><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62; two = new ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">two.add(\"abc\");<\/span><br><span class=\"dCode dNoWrap\">if (one == two) <\/span><br><span class=\"dCode dNoWrap\">  System.out.println(\"A\");<\/span><br><span class=\"dCode dNoWrap\">else if (one.equals(two))<\/span><br><span class=\"dCode dNoWrap\">  System.out.println(\"B\");<\/span><br><span class=\"dCode dNoWrap\">else <\/span><br><span class=\"dCode dNoWrap\">  System.out.println(\"C\");<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5481,7 +5481,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can be inserted into the blank to create a date of June 21, 2014? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">import&amp;#160;java.time.*;<\/span><br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;StartOfSummer&amp;#160;{<\/span><br><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;LocalDate&amp;#160;date&amp;#160;=&amp;#160;____________________________<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following can be inserted into the blank to create a date of June 21, 2014? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">import java.time.*;<\/span><br><br><span class=\"dCode dNoWrap\">public class StartOfSummer {<\/span><br><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">  LocalDate date = ____________________________<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5557,7 +5557,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&amp;#160;date&amp;#160;=&amp;#160;LocalDate.parse(\"2018-04-30\",&amp;#160;DateTimeFormatter.ISO_LOCAL_DATE);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusHours(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;date.getMonth()&amp;#160;+&amp;#160;\"&amp;#160;\"<\/span><br><span class=\"dCode dNoWrap\">+&amp;#160;date.getDayOfMonth());<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate date = LocalDate.parse(\"2018-04-30\", DateTimeFormatter.ISO_LOCAL_DATE);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusHours(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear() + \" \" + date.getMonth() + \" \"<\/span><br><span class=\"dCode dNoWrap\">+ date.getDayOfMonth());<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5626,7 +5626,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&amp;#160;date&amp;#160;=&amp;#160;LocalDate.of(2018,&amp;#160;Month.APRIL,&amp;#160;40);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;date.getMonth()&amp;#160;+&amp;#160;\"&amp;#160;\"<\/span><br><span class=\"dCode dNoWrap\">+&amp;#160;date.getDayOfMonth());<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate date = LocalDate.of(2018, Month.APRIL, 40);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear() + \" \" + date.getMonth() + \" \"<\/span><br><span class=\"dCode dNoWrap\">+ date.getDayOfMonth());<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5702,7 +5702,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate&amp;#160;date&amp;#160;=&amp;#160;LocalDate.of(2018,&amp;#160;Month.APRIL,&amp;#160;30);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusYears(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear()&amp;#160;+&amp;#160;\"&amp;#160;\"&amp;#160;+&amp;#160;date.getMonth()&amp;#160;+&amp;#160;\"&amp;#160;\"<\/span><br><span class=\"dCode dNoWrap\">+&amp;#160;date.getDayOfMonth());<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDate date = LocalDate.of(2018, Month.APRIL, 30);<\/span><br><span class=\"dCode dNoWrap\">date.plusDays(2);<\/span><br><span class=\"dCode dNoWrap\">date.plusYears(3);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(date.getYear() + \" \" + date.getMonth() + \" \"<\/span><br><span class=\"dCode dNoWrap\">+ date.getDayOfMonth());<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5785,7 +5785,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime&amp;#160;d&amp;#160;=&amp;#160;LocalDateTime.of(2015,&amp;#160;5,&amp;#160;10,&amp;#160;11,&amp;#160;22,&amp;#160;33);<\/span><br><span class=\"dCode dNoWrap\">Period&amp;#160;p&amp;#160;=&amp;#160;Period.of(1,&amp;#160;2,&amp;#160;3);<\/span><br><span class=\"dCode dNoWrap\">d&amp;#160;=&amp;#160;d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter&amp;#160;f&amp;#160;=&amp;#160;DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(d.format(f));<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime d = LocalDateTime.of(2015, 5, 10, 11, 22, 33);<\/span><br><span class=\"dCode dNoWrap\">Period p = Period.of(1, 2, 3);<\/span><br><span class=\"dCode dNoWrap\">d = d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter f = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(d.format(f));<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5868,7 +5868,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime&amp;#160;d&amp;#160;=&amp;#160;LocalDateTime.of(2015,&amp;#160;5,&amp;#160;10,&amp;#160;11,&amp;#160;22,&amp;#160;33);<\/span><br><span class=\"dCode dNoWrap\">Period&amp;#160;p&amp;#160;=&amp;#160;Period.ofDays(1).ofYears(2);<\/span><br><span class=\"dCode dNoWrap\">d&amp;#160;=&amp;#160;d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter&amp;#160;f&amp;#160;=&amp;#160;DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(f.format(d));<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">LocalDateTime d = LocalDateTime.of(2015, 5, 10, 11, 22, 33);<\/span><br><span class=\"dCode dNoWrap\">Period p = Period.ofDays(1).ofYears(2);<\/span><br><span class=\"dCode dNoWrap\">d = d.minus(p);<\/span><br><span class=\"dCode dNoWrap\">DateTimeFormatter f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);<\/span><br><span class=\"dCode dNoWrap\">System.out.println(f.format(d));<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -5944,7 +5944,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can fill in the blank in this code to make it compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Ant&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;_____&amp;#160;void&amp;#160;method()&amp;#160;{&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following can fill in the blank in this code to make it compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Ant {<\/span><br><span class=\"dCode dNoWrap\">  _____ void method() { }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6027,42 +6027,42 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">final&amp;#160;static&amp;#160;void&amp;#160;method4()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">final static void method4() { }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;final&amp;#160;int&amp;#160;void&amp;#160;method()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public final int void method() { }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">private&amp;#160;void&amp;#160;int&amp;#160;method()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">private void int method() { }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">static&amp;#160;final&amp;#160;void&amp;#160;method3()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">static final void method3() { }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">void&amp;#160;final&amp;#160;method()&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">void final method() {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">void&amp;#160;public&amp;#160;method()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">void public method() { }<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -6103,49 +6103,49 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;methodA()&amp;#160;{&amp;#160;&amp;#160;return;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void methodA() {  return;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;methodB()&amp;#160;{&amp;#160;&amp;#160;return&amp;#160;null;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void methodB() {  return null;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;methodD()&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void methodD() {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;methodD()&amp;#160;{&amp;#160;&amp;#160;return&amp;#160;9;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int methodD() {  return 9;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;methodE()&amp;#160;{&amp;#160;&amp;#160;return&amp;#160;9.0;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int methodE() {  return 9.0;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;methodF()&amp;#160;{&amp;#160;&amp;#160;return;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int methodF() {  return;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "7",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;methodG()&amp;#160;{&amp;#160;&amp;#160;return&amp;#160;null;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int methodG() {  return null;}<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -6186,49 +6186,49 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreA(int...&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreA(int... nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreB(String&amp;#160;values,&amp;#160;int...&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreB(String values, int... nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreC(int...&amp;#160;nums,&amp;#160;String&amp;#160;values)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreC(int... nums, String values) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreD(String...&amp;#160;values,&amp;#160;int...&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreD(String... values, int... nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": " <span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreE(String[]&amp;#160;values,&amp;#160;...int&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": " <span class=\"dCode dNoWrap\">public void moreE(String[] values, ...int nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreF(String...&amp;#160;values,&amp;#160;int[]&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreF(String... values, int[] nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "7",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;moreG(String[]&amp;#160;values,&amp;#160;int[]&amp;#160;nums)&amp;#160;{}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void moreG(String[] values, int[] nums) {}<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -6262,7 +6262,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following method, which of the method calls return <span class=\"dCode dNoWrap\">2<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;howMany(boolean&amp;#160;b,&amp;#160;boolean...&amp;#160;b2)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;return&amp;#160;b2.length;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Given the following method, which of the method calls return <span class=\"dCode dNoWrap\">2<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public int howMany(boolean b, boolean... b2) {<\/span><br><span class=\"dCode dNoWrap\">  return b2.length;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6283,41 +6283,41 @@
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">howMany(true,&amp;#160;true);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">howMany(true, true);<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">howMany(true,&amp;#160;true,&amp;#160;true);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">howMany(true, true, true);<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">howMany(true,&amp;#160;{true});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">howMany(true, {true});<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">howMany(true,&amp;#160;{true,&amp;#160;true});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">howMany(true, {true, true});<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "7",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">howMany(true,&amp;#160;new&amp;#160;boolean[2]);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">howMany(true, new boolean[2]);<\/span>",
 					"display_order": "1"
 				}]
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Option D passes the initial parameter plus two more to turn into a vararg array of size 2. Option G passes the initial parameter plus an array of size 2. Option A does not compile because it does not pass the initial parameter. Options E and F do not compile because they do not declare an array properly. It should be <span class=\"dCode dNoWrap\">new&amp;#160;boolean[]&amp;#160;{true}<\/span>. Option B creates a vararg array of size 0 and option C creates a vararg array of size 1.",
+				"data": "Option D passes the initial parameter plus two more to turn into a vararg array of size 2. Option G passes the initial parameter plus an array of size 2. Option A does not compile because it does not pass the initial parameter. Options E and F do not compile because they do not declare an array properly. It should be <span class=\"dCode dNoWrap\">new boolean[] {true}<\/span>. Option B creates a vararg array of size 0 and option C creates a vararg array of size 1.",
 				"display_order": "1"
 			}]
 		}, {
@@ -6414,7 +6414,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Given the following <span class=\"dCode dNoWrap\">my.school.ClassRoom<\/span> and <span class=\"dCode dNoWrap\">my.city.School<\/span> class definitions, which line numbers in <span class=\"dCode dNoWrap\">main()<\/span> generate a compiler error? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;package&amp;#160;my.school;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;public&amp;#160;class&amp;#160;Classroom&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;int&amp;#160;roomNumber;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;protected&amp;#160;String&amp;#160;teacherName;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;static&amp;#160;int&amp;#160;globalKey&amp;#160;=&amp;#160;54321;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;int&amp;#160;floor&amp;#160;=&amp;#160;3;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;Classroom(int&amp;#160;r,&amp;#160;String&amp;#160;t)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;roomNumber&amp;#160;=&amp;#160;r;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;teacherName&amp;#160;=&amp;#160;t;&amp;#160;}&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">1:&amp;#160;package&amp;#160;my.city;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;import&amp;#160;my.school.*;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;public&amp;#160;class&amp;#160;School&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(Classroom.globalKey);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Classroom&amp;#160;room&amp;#160;=&amp;#160;new&amp;#160;Classroom(101,&amp;#160;\"\"Mrs.&amp;#160;Anderson\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(room.roomNumber);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(room.floor);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(room.teacherName);&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Given the following <span class=\"dCode dNoWrap\">my.school.ClassRoom<\/span> and <span class=\"dCode dNoWrap\">my.city.School<\/span> class definitions, which line numbers in <span class=\"dCode dNoWrap\">main()<\/span> generate a compiler error? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1: package my.school;<\/span><br><span class=\"dCode dNoWrap\">2: public class Classroom {<\/span><br><span class=\"dCode dNoWrap\">3:   private int roomNumber;<\/span><br><span class=\"dCode dNoWrap\">4:   protected String teacherName;<\/span><br><span class=\"dCode dNoWrap\">5:   static int globalKey = 54321;<\/span><br><span class=\"dCode dNoWrap\">6:   public int floor = 3;<\/span><br><span class=\"dCode dNoWrap\">7:   Classroom(int r, String t) {<\/span><br><span class=\"dCode dNoWrap\">8:     roomNumber = r;<\/span><br><span class=\"dCode dNoWrap\">9:     teacherName = t; } }<\/span><br><br><span class=\"dCode dNoWrap\">1: package my.city;<\/span><br><span class=\"dCode dNoWrap\">2: import my.school.*;<\/span><br><span class=\"dCode dNoWrap\">3: public class School {<\/span><br><span class=\"dCode dNoWrap\">4:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">5:     System.out.println(Classroom.globalKey);<\/span><br><span class=\"dCode dNoWrap\">6:     Classroom room = new Classroom(101, \"\"Mrs. Anderson\");<\/span><br><span class=\"dCode dNoWrap\">7:     System.out.println(room.roomNumber);<\/span><br><span class=\"dCode dNoWrap\">8:     System.out.println(room.floor);<\/span><br><span class=\"dCode dNoWrap\">9:     System.out.println(room.teacherName); } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6573,35 +6573,35 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;boolean&amp;#160;getCanSwim()&amp;#160;{&amp;#160;&amp;#160;return&amp;#160;canSwim;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public boolean getCanSwim() {  return canSwim;<\/span><br><span class=\"dCode dNoWrap\"> }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;boolean&amp;#160;canSwim()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;return&amp;#160;numberWings;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public boolean canSwim() {<\/span><br><span class=\"dCode dNoWrap\">  return numberWings;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;getNumWings()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;return&amp;#160;numberWings;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int getNumWings() {<\/span><br><span class=\"dCode dNoWrap\">  return numberWings;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;int&amp;#160;numWings()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;return&amp;#160;numberWings;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public int numWings() {<\/span><br><span class=\"dCode dNoWrap\">  return numberWings;}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;setCanSwim(boolean&amp;#160;b)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;canSwim&amp;#160;=&amp;#160;b;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void setCanSwim(boolean b) {<\/span><br><span class=\"dCode dNoWrap\">  canSwim = b;<\/span><br><span class=\"dCode dNoWrap\">  }<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -6635,21 +6635,21 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code? <br><br><span class=\"dCode dNoWrap\">1:&amp;#160;package&amp;#160;rope;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;public&amp;#160;class&amp;#160;Rope&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;int&amp;#160;LENGTH&amp;#160;=&amp;#160;5;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;static&amp;#160;{&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;LENGTH&amp;#160;=&amp;#160;10;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;swing()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"swing&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">1:&amp;#160;import&amp;#160;rope.*;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;import&amp;#160;static&amp;#160;rope.Rope.*;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;public&amp;#160;class&amp;#160;Chimp&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rope.swing();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Rope().swing();<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(LENGTH);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;}&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code? <br><br><span class=\"dCode dNoWrap\">1: package rope;<\/span><br><span class=\"dCode dNoWrap\">2: public class Rope {<\/span><br><span class=\"dCode dNoWrap\">3:  public static int LENGTH = 5;<\/span><br><span class=\"dCode dNoWrap\">4:  static { <\/span><br><span class=\"dCode dNoWrap\">5:    LENGTH = 10;<\/span><br><span class=\"dCode dNoWrap\">6:  }<\/span><br><span class=\"dCode dNoWrap\">7:  public static void swing() {<\/span><br><span class=\"dCode dNoWrap\">8:    System.out.print(\"swing \");<\/span><br><span class=\"dCode dNoWrap\">9:  }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span><br><br><span class=\"dCode dNoWrap\">1: import rope.*;<\/span><br><span class=\"dCode dNoWrap\">2: import static rope.Rope.*;<\/span><br><span class=\"dCode dNoWrap\">3: public class Chimp {<\/span><br><span class=\"dCode dNoWrap\">4:  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">5:    Rope.swing();<\/span><br><span class=\"dCode dNoWrap\">6:    new Rope().swing();<\/span><br><span class=\"dCode dNoWrap\">7:    System.out.println(LENGTH);<\/span><br><span class=\"dCode dNoWrap\">8:  } <\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">swing&amp;#160;swing&amp;#160;5<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">swing swing 5<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">swing&amp;#160;swing&amp;#160;10<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">swing swing 10<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -6711,7 +6711,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which are true of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Rope&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;swing()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"swing&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;climb()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"climb&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;play()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;swing();<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;climb();<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rope&amp;#160;rope&amp;#160;=&amp;#160;new&amp;#160;Rope();<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;rope.play();<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Rope&amp;#160;rope2&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;rope2.play();<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;}<\/span>",
+				"data": "Which are true of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:  public class Rope {<\/span><br><span class=\"dCode dNoWrap\">2:    public static void swing() {<\/span><br><span class=\"dCode dNoWrap\">3:      System.out.print(\"swing \");<\/span><br><span class=\"dCode dNoWrap\">4:    }<\/span><br><span class=\"dCode dNoWrap\">5:    public void climb() {<\/span><br><span class=\"dCode dNoWrap\">6:      System.out.println(\"climb \");<\/span><br><span class=\"dCode dNoWrap\">7:    }<\/span><br><span class=\"dCode dNoWrap\">8:    public static void play() {<\/span><br><span class=\"dCode dNoWrap\">9:      swing();<\/span><br><span class=\"dCode dNoWrap\">10:     climb();<\/span><br><span class=\"dCode dNoWrap\">11:   }<\/span><br><span class=\"dCode dNoWrap\">12:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">13:     Rope rope = new Rope();<\/span><br><span class=\"dCode dNoWrap\">14:     rope.play();<\/span><br><span class=\"dCode dNoWrap\">15:     Rope rope2 = null;<\/span><br><span class=\"dCode dNoWrap\">16:     rope2.play();<\/span><br><span class=\"dCode dNoWrap\">17:   }<\/span><br><span class=\"dCode dNoWrap\">18: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6739,14 +6739,14 @@
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If the lines with compiler errors are removed, the output is <span class=\"dCode dNoWrap\">climb&amp;#160;climb<\/span>.",
+					"data": "If the lines with compiler errors are removed, the output is <span class=\"dCode dNoWrap\">climb climb<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "If the lines with compiler errors are removed, the output is <span class=\"dCode dNoWrap\">swing&amp;#160;swing<\/span>.",
+					"data": "If the lines with compiler errors are removed, the output is <span class=\"dCode dNoWrap\">swing swing<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
@@ -6787,7 +6787,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import&amp;#160;rope.*;<\/span><br><span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;rope.Rope.*;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;RopeSwing&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;Rope&amp;#160;rope1&amp;#160;=&amp;#160;new&amp;#160;Rope();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;Rope&amp;#160;rope2&amp;#160;=&amp;#160;new&amp;#160;Rope();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(rope1.length);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;rope1.length&amp;#160;=&amp;#160;2;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;rope2.length&amp;#160;=&amp;#160;8;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(rope1.length);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><br><span class=\"dCode dNoWrap\">package&amp;#160;rope;<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Rope&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;int&amp;#160;length&amp;#160;=&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">import rope.*;<\/span><br><span class=\"dCode dNoWrap\">import static rope.Rope.*;<\/span><br><span class=\"dCode dNoWrap\">public class RopeSwing {<\/span><br><span class=\"dCode dNoWrap\">  private static Rope rope1 = new Rope();<\/span><br><span class=\"dCode dNoWrap\">  private static Rope rope2 = new Rope();<\/span><br><span class=\"dCode dNoWrap\">  {<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(rope1.length);<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">    rope1.length = 2;<\/span><br><span class=\"dCode dNoWrap\">    rope2.length = 8;<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(rope1.length);<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><br><span class=\"dCode dNoWrap\">package rope;<\/span><br><span class=\"dCode dNoWrap\">public class Rope {<\/span><br><span class=\"dCode dNoWrap\">  public static int length = 0;<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6863,7 +6863,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "How many compiler errors are in the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;RopeSwing&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;final&amp;#160;String&amp;#160;leftRope;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;final&amp;#160;String&amp;#160;rightRope;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;final&amp;#160;String&amp;#160;bench;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;final&amp;#160;String&amp;#160;name&amp;#160;=&amp;#160;\"name\";<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;static&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;leftRope&amp;#160;=&amp;#160;\"left\";<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;rightRope&amp;#160;=&amp;#160;\"right\";<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;static&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;name&amp;#160;=&amp;#160;\"name\";<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;rightRope&amp;#160;=&amp;#160;\"right\";<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;bench&amp;#160;=&amp;#160;\"bench\";<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;}<\/span>",
+				"data": "How many compiler errors are in the following code?<br><br><span class=\"dCode dNoWrap\">1: public class RopeSwing {<\/span><br><span class=\"dCode dNoWrap\">2:   private static final String leftRope;<\/span><br><span class=\"dCode dNoWrap\">3:   private static final String rightRope;<\/span><br><span class=\"dCode dNoWrap\">4:   private static final String bench;<\/span><br><span class=\"dCode dNoWrap\">5:   private static final String name = \"name\";<\/span><br><span class=\"dCode dNoWrap\">6:   static {<\/span><br><span class=\"dCode dNoWrap\">7:     leftRope = \"left\";<\/span><br><span class=\"dCode dNoWrap\">8:     rightRope = \"right\";<\/span><br><span class=\"dCode dNoWrap\">9:   }<\/span><br><span class=\"dCode dNoWrap\">10:   static {<\/span><br><span class=\"dCode dNoWrap\">11:     name = \"name\";<\/span><br><span class=\"dCode dNoWrap\">12:     rightRope = \"right\";<\/span><br><span class=\"dCode dNoWrap\">13:   }<\/span><br><span class=\"dCode dNoWrap\">14:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">15:     bench = \"bench\";<\/span><br><span class=\"dCode dNoWrap\">16:   }<\/span><br><span class=\"dCode dNoWrap\">17: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -6939,55 +6939,55 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can replace line 2 to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;import&amp;#160;java.util.*;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;public&amp;#160;class&amp;#160;Imports&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;method(ArrayList&amp;#60;String&amp;#62;&amp;#160;list)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;sort(list);<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span>",
+				"data": "Which of the following can replace line 2 to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1: import java.util.*;<\/span><br><span class=\"dCode dNoWrap\">2: \/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">3: public class Imports {<\/span><br><span class=\"dCode dNoWrap\">4:  public void method(ArrayList&amp;#60;String&amp;#62; list) {<\/span><br><span class=\"dCode dNoWrap\">5:    sort(list);<\/span><br><span class=\"dCode dNoWrap\">6:  }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;java.util.Collections;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import static java.util.Collections;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;java.util.Collections.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import static java.util.Collections.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;java.util.Collections.sort(ArrayList&amp;#60;String&amp;#62;);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">import static java.util.Collections.sort(ArrayList&amp;#60;String&amp;#62;);<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">static&amp;#160;import&amp;#160;java.util.Collections;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">static import java.util.Collections;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">static&amp;#160;import&amp;#160;java.util.Collections.*;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">static import java.util.Collections.*;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">static&amp;#160;import&amp;#160;java.util.Collections.sort(ArrayList&amp;#60;String&amp;#62;);<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">static import java.util.Collections.sort(ArrayList&amp;#60;String&amp;#62;);<\/span>",
 					"display_order": "1"
 				}]
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The two valid ways to do this are <span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;java.util.Collections.*;<\/span> and <span class=\"dCode dNoWrap\">import&amp;#160;static&amp;#160;java.util.Collections.sort;<\/span>. Option A is incorrect because you can only do a static <span class=\"dCode dNoWrap\">import<\/span> on <span class=\"dCode dNoWrap\">static<\/span> members. Classes such as <span class=\"dCode dNoWrap\">Collections<\/span> require a regular <span class=\"dCode dNoWrap\">import<\/span>. Option C is nonsense as method parameters have no business in an <span class=\"dCode dNoWrap\">import<\/span>. Options D, E, and F try to trick you into reversing the syntax of <span class=\"dCode dNoWrap\">import&amp;#160;static<\/span>.",
+				"data": "The two valid ways to do this are <span class=\"dCode dNoWrap\">import static java.util.Collections.*;<\/span> and <span class=\"dCode dNoWrap\">import static java.util.Collections.sort;<\/span>. Option A is incorrect because you can only do a static <span class=\"dCode dNoWrap\">import<\/span> on <span class=\"dCode dNoWrap\">static<\/span> members. Classes such as <span class=\"dCode dNoWrap\">Collections<\/span> require a regular <span class=\"dCode dNoWrap\">import<\/span>. Option C is nonsense as method parameters have no business in an <span class=\"dCode dNoWrap\">import<\/span>. Options D, E, and F try to trick you into reversing the syntax of <span class=\"dCode dNoWrap\">import static<\/span>.",
 				"display_order": "1"
 			}]
 		}, {
@@ -7015,7 +7015,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Test&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;print(byte&amp;#160;x)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"byte\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;print(int&amp;#160;x)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"int\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;print(float&amp;#160;x)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"float\");<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;print(Object&amp;#160;x)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Object\");<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Test&amp;#160;t&amp;#160;=&amp;#160;new&amp;#160;Test();<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;short&amp;#160;s&amp;#160;=&amp;#160;123;<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;t.print(s);<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;t.print(true);<\/span><br><span class=\"dCode dNoWrap\">19:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;t.print(6.789);<\/span><br><span class=\"dCode dNoWrap\">20:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">21:&amp;#160;}<\/span>",
+				"data": "What is the result of the following statements?<br><br><span class=\"dCode dNoWrap\">1:  public class Test {<\/span><br><span class=\"dCode dNoWrap\">2:    public void print(byte x) {<\/span><br><span class=\"dCode dNoWrap\">3:      System.out.print(\"byte\");<\/span><br><span class=\"dCode dNoWrap\">4:    }<\/span><br><span class=\"dCode dNoWrap\">5:    public void print(int x) {<\/span><br><span class=\"dCode dNoWrap\">6:      System.out.print(\"int\");<\/span><br><span class=\"dCode dNoWrap\">7:    }<\/span><br><span class=\"dCode dNoWrap\">8:    public void print(float x) {<\/span><br><span class=\"dCode dNoWrap\">9:      System.out.print(\"float\");<\/span><br><span class=\"dCode dNoWrap\">10:   }<\/span><br><span class=\"dCode dNoWrap\">11:   public void print(Object x) {<\/span><br><span class=\"dCode dNoWrap\">12:     System.out.print(\"Object\");<\/span><br><span class=\"dCode dNoWrap\">13:   }<\/span><br><span class=\"dCode dNoWrap\">14:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">15:     Test t = new Test();<\/span><br><span class=\"dCode dNoWrap\">16:     short s = 123;<\/span><br><span class=\"dCode dNoWrap\">17:     t.print(s);<\/span><br><span class=\"dCode dNoWrap\">18:     t.print(true);<\/span><br><span class=\"dCode dNoWrap\">19:     t.print(6.789);<\/span><br><span class=\"dCode dNoWrap\">20:   }<\/span><br><span class=\"dCode dNoWrap\">21: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7091,7 +7091,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following program?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;Squares&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;long&amp;#160;square(int&amp;#160;x)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;long&amp;#160;y&amp;#160;=&amp;#160;x&amp;#160;*&amp;#160;(long)&amp;#160;x;<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;x&amp;#160;=&amp;#160;-1;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;y;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;value&amp;#160;=&amp;#160;9;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;long&amp;#160;result&amp;#160;=&amp;#160;square(value);<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(value);<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is the result of the following program?<br><br><span class=\"dCode dNoWrap\">1: public class Squares {<\/span><br><span class=\"dCode dNoWrap\">2:   public static long square(int x) {<\/span><br><span class=\"dCode dNoWrap\">3:     long y = x * (long) x;<\/span><br><span class=\"dCode dNoWrap\">4:     x = -1;<\/span><br><span class=\"dCode dNoWrap\">5:     return y;<\/span><br><span class=\"dCode dNoWrap\">6:   }<\/span><br><span class=\"dCode dNoWrap\">7:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">8:     int value = 9;<\/span><br><span class=\"dCode dNoWrap\">9:     long result = square(value);<\/span><br><span class=\"dCode dNoWrap\">10:     System.out.println(value);<\/span><br><span class=\"dCode dNoWrap\">11:   } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7160,49 +7160,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are output by the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;StringBuilders&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;StringBuilder&amp;#160;work(StringBuilder&amp;#160;a,&amp;#160;StringBuilder&amp;#160;b)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;a&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"a\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;b.append(\"b\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;a;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;StringBuilder&amp;#160;s1&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"s1\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;StringBuilder&amp;#160;s2&amp;#160;=&amp;#160;new&amp;#160;StringBuilder(\"s2\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;StringBuilder&amp;#160;s3&amp;#160;=&amp;#160;work(s1,&amp;#160;s2);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"s1&amp;#160;=&amp;#160;\"&amp;#160;+&amp;#160;s1);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"s2&amp;#160;=&amp;#160;\"&amp;#160;+&amp;#160;s2);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"s3&amp;#160;=&amp;#160;\"&amp;#160;+&amp;#160;s3);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following are output by the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class StringBuilders {<\/span><br><span class=\"dCode dNoWrap\">  public static StringBuilder work(StringBuilder a, StringBuilder b) {<\/span><br><span class=\"dCode dNoWrap\">    a = new StringBuilder(\"a\");<\/span><br><span class=\"dCode dNoWrap\">    b.append(\"b\");<\/span><br><span class=\"dCode dNoWrap\">    return a;<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">    StringBuilder s1 = new StringBuilder(\"s1\");<\/span><br><span class=\"dCode dNoWrap\">    StringBuilder s2 = new StringBuilder(\"s2\");<\/span><br><span class=\"dCode dNoWrap\">    StringBuilder s3 = work(s1, s2);<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(\"s1 = \" + s1);<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(\"s2 = \" + s2);<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(\"s3 = \" + s3);<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s1&amp;#160;=&amp;#160;a<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s1 = a<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s1&amp;#160;=&amp;#160;s1<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s1 = s1<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s2&amp;#160;=&amp;#160;s2<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s2 = s2<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s2&amp;#160;=&amp;#160;s2b<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s2 = s2b<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s3&amp;#160;=&amp;#160;a<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s3 = a<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s3&amp;#160;=&amp;#160;null<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s3 = null<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -7333,49 +7333,49 @@
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;public&amp;#160;bird()&amp;#160;{}&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { public bird() {} }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;public&amp;#160;bird(String&amp;#160;name)&amp;#160;{}&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { public bird(String name) {} }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;public&amp;#160;Bird()&amp;#160;{}&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { public Bird() {} }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;Bird(String&amp;#160;name)&amp;#160;{}&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { Bird(String name) {} }<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;private&amp;#160;Bird(int&amp;#160;age)&amp;#160;{}&amp;#160;}&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { private Bird(int age) {} } <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "7",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Bird&amp;#160;{&amp;#160;void&amp;#160;Bird()&amp;#160;{&amp;#160;}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public class Bird { void Bird() { }<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -7409,7 +7409,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which code can be inserted to have the code print <span class=\"dCode dNoWrap\">2<\/span>?<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;BirdSeed&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;private&amp;#160;int&amp;#160;numberBags;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;boolean&amp;#160;call;<\/span><br><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;BirdSeed()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;LINE&amp;#160;1<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;call&amp;#160;=&amp;#160;false;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;LINE&amp;#160;2<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;BirdSeed(int&amp;#160;numberBags)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;this.numberBags&amp;#160;=&amp;#160;numberBags;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;BirdSeed&amp;#160;seed&amp;#160;=&amp;#160;new&amp;#160;BirdSeed();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(seed.numberBags);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "Which code can be inserted to have the code print <span class=\"dCode dNoWrap\">2<\/span>?<br><br><span class=\"dCode dNoWrap\">public class BirdSeed {<\/span><br><span class=\"dCode dNoWrap\">  private int numberBags;<\/span><br><span class=\"dCode dNoWrap\">  boolean call;<\/span><br><br><span class=\"dCode dNoWrap\">  public BirdSeed() {<\/span><br><span class=\"dCode dNoWrap\">    \/\/ LINE 1<\/span><br><span class=\"dCode dNoWrap\">    call = false;<\/span><br><span class=\"dCode dNoWrap\">    \/\/ LINE 2<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  public BirdSeed(int numberBags) {<\/span><br><span class=\"dCode dNoWrap\">    this.numberBags = numberBags;<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">    BirdSeed seed = new BirdSeed();<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(seed.numberBags);<\/span><br><span class=\"dCode dNoWrap\">  } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7430,14 +7430,14 @@
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "Replace line 1 with <span class=\"dCode dNoWrap\">new&amp;#160;BirdSeed(2);<\/span>.",
+					"data": "Replace line 1 with <span class=\"dCode dNoWrap\">new BirdSeed(2);<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "Replace line 2 with <span class=\"dCode dNoWrap\">new&amp;#160;BirdSeed(2);<\/span>.",
+					"data": "Replace line 2 with <span class=\"dCode dNoWrap\">new BirdSeed(2);<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
@@ -7485,42 +7485,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following complete the constructor so that this code prints out <span class=\"dCode dNoWrap\">50<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Cheetah&amp;#160;{&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;int&amp;#160;numSpots;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;Cheetah(int&amp;#160;numSpots)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(new&amp;#160;Cheetah(50).numSpots);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following complete the constructor so that this code prints out <span class=\"dCode dNoWrap\">50<\/span>? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Cheetah { <\/span><br><span class=\"dCode dNoWrap\">  int numSpots;<\/span><br><span class=\"dCode dNoWrap\">  public Cheetah(int numSpots) {<\/span><br><span class=\"dCode dNoWrap\">    \/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">  } <\/span><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(new Cheetah(50).numSpots);<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">numSpots&amp;#160;=&amp;#160;numSpots;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">numSpots = numSpots;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">numSpots&amp;#160;=&amp;#160;this.numSpots;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">numSpots = this.numSpots;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">this.numSpots&amp;#160;=&amp;#160;numSpots;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">this.numSpots = numSpots;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">numSpots&amp;#160;=&amp;#160;super.numSpots;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">numSpots = super.numSpots;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">super.numSpots&amp;#160;=&amp;#160;numSpots;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">super.numSpots = numSpots;<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -7561,7 +7561,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Order&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;static&amp;#160;String&amp;#160;result&amp;#160;=&amp;#160;\"\";<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;{&amp;#160;result&amp;#160;+=&amp;#160;\"c\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;static&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;{&amp;#160;result&amp;#160;+=&amp;#160;\"u\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;{&amp;#160;result&amp;#160;+=&amp;#160;\"r\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span><br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;OrderDriver&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(Order.result&amp;#160;+&amp;#160;\"&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(Order.result&amp;#160;+&amp;#160;\"&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Order();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Order();<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(Order.result&amp;#160;+&amp;#160;\"&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">1:  public class Order {<\/span><br><span class=\"dCode dNoWrap\">2:    static String result = \"\";<\/span><br><span class=\"dCode dNoWrap\">3:    { result += \"c\"; }<\/span><br><span class=\"dCode dNoWrap\">4:    static <\/span><br><span class=\"dCode dNoWrap\">5:    { result += \"u\"; }<\/span><br><span class=\"dCode dNoWrap\">6:    { result += \"r\"; }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span><br><br><span class=\"dCode dNoWrap\">1: public class OrderDriver {<\/span><br><span class=\"dCode dNoWrap\">2:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">3:     System.out.print(Order.result + \" \");<\/span><br><span class=\"dCode dNoWrap\">4:     System.out.print(Order.result + \" \");<\/span><br><span class=\"dCode dNoWrap\">5:     new Order();<\/span><br><span class=\"dCode dNoWrap\">6:     new Order();<\/span><br><span class=\"dCode dNoWrap\">7:     System.out.print(Order.result + \" \");<\/span><br><span class=\"dCode dNoWrap\">8:   }<\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7582,28 +7582,28 @@
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">u&amp;#160;ucrcr<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">u ucrcr<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">u&amp;#160;u&amp;#160;curcur<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">u u curcur<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">u&amp;#160;u&amp;#160;ucrcr<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">u u ucrcr<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">ur&amp;#160;ur&amp;#160;urc<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">ur ur urc<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -7644,7 +7644,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;Order&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;String&amp;#160;value&amp;#160;=&amp;#160;\"t\";<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;{&amp;#160;value&amp;#160;+=&amp;#160;\"a\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;{&amp;#160;value&amp;#160;+=&amp;#160;\"c\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;Order()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;value&amp;#160;+=&amp;#160;\"b\";<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;Order(String&amp;#160;s)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;value&amp;#160;+=&amp;#160;s;<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Order&amp;#160;order&amp;#160;=&amp;#160;new&amp;#160;Order(\"f\");<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;&amp;#160;order&amp;#160;=&amp;#160;new&amp;#160;Order();<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(order.value);<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is the result of the following?<br><br><span class=\"dCode dNoWrap\">1: public class Order {<\/span><br><span class=\"dCode dNoWrap\">2:   String value = \"t\";<\/span><br><span class=\"dCode dNoWrap\">3:   { value += \"a\"; }<\/span><br><span class=\"dCode dNoWrap\">4:   { value += \"c\"; }<\/span><br><span class=\"dCode dNoWrap\">5:   public Order() {<\/span><br><span class=\"dCode dNoWrap\">6:     value += \"b\";<\/span><br><span class=\"dCode dNoWrap\">7:   }<\/span><br><span class=\"dCode dNoWrap\">8:   public Order(String s) {<\/span><br><span class=\"dCode dNoWrap\">9:     value += s;<\/span><br><span class=\"dCode dNoWrap\">10:  }<\/span><br><span class=\"dCode dNoWrap\">11:  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">12:    Order order = new Order(\"f\");<\/span><br><span class=\"dCode dNoWrap\">13:    order = new Order();<\/span><br><span class=\"dCode dNoWrap\">14:    System.out.println(order.value);<\/span><br><span class=\"dCode dNoWrap\">15:  } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7727,49 +7727,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following will compile when inserted in the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Order3&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;final&amp;#160;String&amp;#160;value1&amp;#160;=&amp;#160;\"1\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;static&amp;#160;String&amp;#160;value2&amp;#160;=&amp;#160;\"2\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;String&amp;#160;value3&amp;#160;=&amp;#160;\"3\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;1<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;static&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;2<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following will compile when inserted in the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Order3 {<\/span><br><span class=\"dCode dNoWrap\">  final String value1 = \"1\";<\/span><br><span class=\"dCode dNoWrap\">  static String value2 = \"2\";<\/span><br><span class=\"dCode dNoWrap\">  String value3 = \"3\";<\/span><br><span class=\"dCode dNoWrap\">  {<\/span><br><span class=\"dCode dNoWrap\">    \/\/ CODE SNIPPET 1<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  static {<\/span><br><span class=\"dCode dNoWrap\">    \/\/ CODE SNIPPET 2<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value1&amp;#160;=&amp;#160;\"d\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;1<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value1 = \"d\"; instead of \/\/ CODE SNIPPET 1<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value2&amp;#160;=&amp;#160;\"e\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;1<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value2 = \"e\"; instead of \/\/ CODE SNIPPET 1<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value3&amp;#160;=&amp;#160;\"f\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;1<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value3 = \"f\"; instead of \/\/ CODE SNIPPET 1<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value1&amp;#160;=&amp;#160;\"g\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;2<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value1 = \"g\"; instead of \/\/ CODE SNIPPET 2<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value2&amp;#160;=&amp;#160;\"h\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;2<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value2 = \"h\"; instead of \/\/ CODE SNIPPET 2<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">value3&amp;#160;=&amp;#160;\"i\";&amp;#160;instead&amp;#160;of&amp;#160;\/\/&amp;#160;CODE&amp;#160;SNIPPET&amp;#160;2<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">value3 = \"i\"; instead of \/\/ CODE SNIPPET 2<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -7803,56 +7803,56 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following are true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Create&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Create()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"1&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Create(int&amp;#160;num)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"2&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Create(Integer&amp;#160;num)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"3&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Create(Object&amp;#160;num)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"4&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;Create(int...&amp;#160;nums)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"5&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Create(100);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Create(1000L);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following are true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Create {<\/span><br><span class=\"dCode dNoWrap\">  Create() {<\/span><br><span class=\"dCode dNoWrap\">    System.out.print(\"1 \");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  Create(int num) {<\/span><br><span class=\"dCode dNoWrap\">    System.out.print(\"2 \");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  Create(Integer num) {<\/span><br><span class=\"dCode dNoWrap\">    System.out.print(\"3 \");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  Create(Object num) {<\/span><br><span class=\"dCode dNoWrap\">    System.out.print(\"4 \");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  Create(int... nums) {<\/span><br><span class=\"dCode dNoWrap\">    System.out.print(\"5 \");<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">    new Create(100);<\/span><br><span class=\"dCode dNoWrap\">    new Create(1000L);<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints out <span class=\"dCode dNoWrap\">2&amp;#160;4<\/span>.",
+					"data": "The code prints out <span class=\"dCode dNoWrap\">2 4<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints out <span class=\"dCode dNoWrap\">3&amp;#160;4<\/span>.",
+					"data": "The code prints out <span class=\"dCode dNoWrap\">3 4<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints out <span class=\"dCode dNoWrap\">4&amp;#160;2<\/span>.",
+					"data": "The code prints out <span class=\"dCode dNoWrap\">4 2<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints out <span class=\"dCode dNoWrap\">4&amp;#160;4<\/span>.",
+					"data": "The code prints out <span class=\"dCode dNoWrap\">4 4<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints <span class=\"dCode dNoWrap\">3&amp;#160;4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int&amp;#160;num)<\/span>.",
+					"data": "The code prints <span class=\"dCode dNoWrap\">3 4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int num)<\/span>.",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints <span class=\"dCode dNoWrap\">4&amp;#160;4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int&amp;#160;num)<\/span>.<span class=\"dCode dNoWrap\">&amp;#160;<\/span>",
+					"data": "The code prints <span class=\"dCode dNoWrap\">4 4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int num)<\/span>.<span class=\"dCode dNoWrap\"> <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "7",
 				"data": [{
 					"data_type_id": "2",
-					"data": "The code prints <span class=\"dCode dNoWrap\">5&amp;#160;4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int&amp;#160;num)<\/span>.",
+					"data": "The code prints <span class=\"dCode dNoWrap\">5 4<\/span> if you remove the constructor <span class=\"dCode dNoWrap\">Create(int num)<\/span>.",
 					"display_order": "1"
 				}]
 			}],
@@ -7886,7 +7886,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following class?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;import&amp;#160;java.util.function.*;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;public&amp;#160;class&amp;#160;Panda&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;int&amp;#160;age;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Panda&amp;#160;p1&amp;#160;=&amp;#160;new&amp;#160;Panda();<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;p1.age&amp;#160;=&amp;#160;1;<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;check(p1,&amp;#160;p&amp;#160;-&amp;#62;&amp;#160;p.age&amp;#160;&amp;#60;&amp;#160;5);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;void&amp;#160;check(Panda&amp;#160;panda,&amp;#160;Predicate&amp;#60;Panda&amp;#62;&amp;#160;pred)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;String&amp;#160;result&amp;#160;=&amp;#160;pred.test(panda)&amp;#160;?&amp;#160;\"match\"&amp;#160;:&amp;#160;\"not&amp;#160;match\";&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(result);<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is the result of the following class?<br><br><span class=\"dCode dNoWrap\">1: import java.util.function.*;<\/span><br><span class=\"dCode dNoWrap\">2: <\/span><br><span class=\"dCode dNoWrap\">3: public class Panda {<\/span><br><span class=\"dCode dNoWrap\">4:   int age;<\/span><br><span class=\"dCode dNoWrap\">5:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">6:     Panda p1 = new Panda();<\/span><br><span class=\"dCode dNoWrap\">7:     p1.age = 1;<\/span><br><span class=\"dCode dNoWrap\">8:     check(p1, p -&amp;#62; p.age &amp;#60; 5);<\/span><br><span class=\"dCode dNoWrap\">9:   }<\/span><br><span class=\"dCode dNoWrap\">10:   private static void check(Panda panda, Predicate&amp;#60;Panda&amp;#62; pred) {<\/span><br><span class=\"dCode dNoWrap\">11:     String result = pred.test(panda) ? \"match\" : \"not match\"; <\/span><br><span class=\"dCode dNoWrap\">12:     System.out.print(result);<\/span><br><span class=\"dCode dNoWrap\">13: } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7900,7 +7900,7 @@
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">not&amp;#160;match<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">not match<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -7962,7 +7962,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;interface&amp;#160;Climb&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;boolean&amp;#160;isTooHigh(int&amp;#160;height,&amp;#160;int&amp;#160;limit);<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;public&amp;#160;class&amp;#160;Climber&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;check((h,&amp;#160;l)&amp;#160;-&amp;#62;&amp;#160;h.append(l).isEmpty(),&amp;#160;5);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;private&amp;#160;static&amp;#160;void&amp;#160;check(Climb&amp;#160;climb,&amp;#160;int&amp;#160;height)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;if&amp;#160;(climb.isTooHigh(height,&amp;#160;10))&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"too&amp;#160;high\");<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;else&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"ok\");<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;}<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1: interface Climb {<\/span><br><span class=\"dCode dNoWrap\">2:   boolean isTooHigh(int height, int limit);<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: <\/span><br><span class=\"dCode dNoWrap\">5: public class Climber {<\/span><br><span class=\"dCode dNoWrap\">6:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">7:   check((h, l) -&amp;#62; h.append(l).isEmpty(), 5);<\/span><br><span class=\"dCode dNoWrap\">8:   }<\/span><br><span class=\"dCode dNoWrap\">9:   private static void check(Climb climb, int height) {<\/span><br><span class=\"dCode dNoWrap\">10:    if (climb.isTooHigh(height, 10)) <\/span><br><span class=\"dCode dNoWrap\">11:      System.out.println(\"too high\");<\/span><br><span class=\"dCode dNoWrap\">12:    else <\/span><br><span class=\"dCode dNoWrap\">13:      System.out.println(\"ok\");<\/span><br><span class=\"dCode dNoWrap\">14:  }<\/span><br><span class=\"dCode dNoWrap\">15: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -7976,7 +7976,7 @@
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">too&amp;#160;high<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">too high<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -8038,49 +8038,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following lambda expressions can fill in the blank? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62;&amp;#160;list&amp;#160;=&amp;#160;new&amp;#160;ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">list.removeIf(___________________);<\/span>",
+				"data": "Which of the following lambda expressions can fill in the blank? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">List&amp;#60;String&amp;#62; list = new ArrayList&amp;#60;&amp;#62;();<\/span><br><span class=\"dCode dNoWrap\">list.removeIf(___________________);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s&amp;#160;-&amp;#62;&amp;#160;s.isEmpty()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s -&amp;#62; s.isEmpty()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s&amp;#160;-&amp;#62;&amp;#160;{s.isEmpty()}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s -&amp;#62; {s.isEmpty()}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s&amp;#160;-&amp;#62;&amp;#160;{s.isEmpty();}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s -&amp;#62; {s.isEmpty();}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">s&amp;#160;-&amp;#62;&amp;#160;{return&amp;#160;s.isEmpty();}<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">s -&amp;#62; {return s.isEmpty();}<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">String&amp;#160;s&amp;#160;-&amp;#62;&amp;#160;s.isEmpty()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">String s -&amp;#62; s.isEmpty()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">(String&amp;#160;s)&amp;#160;-&amp;#62;&amp;#160;s.isEmpty()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">(String s) -&amp;#62; s.isEmpty()<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -8114,49 +8114,49 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which lambda can replace the <span class=\"dCode dNoWrap\">MySecret<\/span> class to return the same value? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">interface&amp;#160;Secret&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;String&amp;#160;magic(double&amp;#160;d);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><br><span class=\"dCode dNoWrap\">class&amp;#160;MySecret&amp;#160;implements&amp;#160;Secret&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;magic(double&amp;#160;d)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;\"Poof\";<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which lambda can replace the <span class=\"dCode dNoWrap\">MySecret<\/span> class to return the same value? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">interface Secret {<\/span><br><span class=\"dCode dNoWrap\">  String magic(double d);<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><br><span class=\"dCode dNoWrap\">class MySecret implements Secret {<\/span><br><span class=\"dCode dNoWrap\">  public String magic(double d) {<\/span><br><span class=\"dCode dNoWrap\">    return \"Poof\";<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;\"Poof\");<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; \"Poof\");<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;{\"Poof\"});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; {\"Poof\"});<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;{&amp;#160;String&amp;#160;e&amp;#160;=&amp;#160;\"\";&amp;#160;\"Poof\"&amp;#160;});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; { String e = \"\"; \"Poof\" });<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;{&amp;#160;String&amp;#160;e&amp;#160;=&amp;#160;\"\";&amp;#160;return&amp;#160;\"Poof\";&amp;#160;});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; { String e = \"\"; return \"Poof\"; });<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;{&amp;#160;String&amp;#160;e&amp;#160;=&amp;#160;\"\";&amp;#160;return&amp;#160;\"Poof\"&amp;#160;});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; { String e = \"\"; return \"Poof\" });<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">caller((e)&amp;#160;-&amp;#62;&amp;#160;{&amp;#160;String&amp;#160;f&amp;#160;=&amp;#160;\"\";&amp;#160;return&amp;#160;\"Poof\";&amp;#160;});<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">caller((e) -&amp;#62; { String f = \"\"; return \"Poof\"; });<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -8266,7 +8266,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;class&amp;#160;Mammal&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;Mammal(int&amp;#160;age)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Mammal\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;public&amp;#160;class&amp;#160;Platypus&amp;#160;extends&amp;#160;Mammal&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;Platypus()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Platypus\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Mammal(5);<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: class Mammal {<\/span><br><span class=\"dCode dNoWrap\">2:         public Mammal(int age) {<\/span><br><span class=\"dCode dNoWrap\">3:                System.out.print(\"Mammal\");<\/span><br><span class=\"dCode dNoWrap\">4:        }<\/span><br><span class=\"dCode dNoWrap\">5: }<\/span><br><span class=\"dCode dNoWrap\">6: public class Platypus extends Mammal {<\/span><br><span class=\"dCode dNoWrap\">7:        public Platypus() {<\/span><br><span class=\"dCode dNoWrap\">8:                System.out.print(\"Platypus\");<\/span><br><span class=\"dCode dNoWrap\">9:        }<\/span><br><span class=\"dCode dNoWrap\">10:        public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">11:                new Mammal(5);<\/span><br><span class=\"dCode dNoWrap\">12:        }<\/span><br><span class=\"dCode dNoWrap\">13: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8314,7 +8314,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The code will not compile because the parent class <span class=\"dCode dNoWrap\">Mammal<\/span> doesn\'t define a no-argument constructor, so the first line of a <span class=\"dCode dNoWrap\">Platypus<\/span> constructor should be an explicit call to <span class=\"dCode dNoWrap\">super(int&amp;#160;age)<\/span>. If there was such a call, then the output would be <span class=\"dCode dNoWrap\">MammalPlatypus<\/span>, since the super constructor is executed before the child constructor.",
+				"data": "The code will not compile because the parent class <span class=\"dCode dNoWrap\">Mammal<\/span> doesn\'t define a no-argument constructor, so the first line of a <span class=\"dCode dNoWrap\">Platypus<\/span> constructor should be an explicit call to <span class=\"dCode dNoWrap\">super(int age)<\/span>. If there was such a call, then the output would be <span class=\"dCode dNoWrap\">MammalPlatypus<\/span>, since the super constructor is executed before the child constructor.",
 				"display_order": "1"
 			}]
 		}, {
@@ -8342,7 +8342,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following statements can be inserted in the blank line so that the code will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;interface&amp;#160;CanHop&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Frog&amp;#160;implements&amp;#160;CanHop&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;___________&amp;#160;frog&amp;#160;=&amp;#160;new&amp;#160;TurtleFrog();<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;BrazilianHornedFrog&amp;#160;extends&amp;#160;Frog&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;TurtleFrog&amp;#160;extends&amp;#160;Frog&amp;#160;{}<\/span>",
+				"data": "Which of the following statements can be inserted in the blank line so that the code will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public interface CanHop {}<\/span><br><span class=\"dCode dNoWrap\">public class Frog implements CanHop {<\/span><br><span class=\"dCode dNoWrap\">        public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">                ___________ frog = new TurtleFrog();<\/span><br><span class=\"dCode dNoWrap\">        }<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public class BrazilianHornedFrog extends Frog {}<\/span><br><span class=\"dCode dNoWrap\">public class TurtleFrog extends Frog {}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8418,7 +8418,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which statement(s) are correct about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Rodent&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;protected&amp;#160;static&amp;#160;Integer&amp;#160;chew()&amp;#160;throws&amp;#160;Exception&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"Rodent&amp;#160;is&amp;#160;chewing\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;1;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Beaver&amp;#160;extends&amp;#160;Rodent&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;Number&amp;#160;chew()&amp;#160;throws&amp;#160;RuntimeException&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"Beaver&amp;#160;is&amp;#160;chewing&amp;#160;on&amp;#160;wood\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;2;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which statement(s) are correct about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Rodent {<\/span><br><span class=\"dCode dNoWrap\">        protected static Integer chew() throws Exception {<\/span><br><span class=\"dCode dNoWrap\">                System.out.println(\"Rodent is chewing\");<\/span><br><span class=\"dCode dNoWrap\">                return 1;<\/span><br><span class=\"dCode dNoWrap\">        }<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">public class Beaver extends Rodent {<\/span><br><span class=\"dCode dNoWrap\">        public Number chew() throws RuntimeException {<\/span><br><span class=\"dCode dNoWrap\">                System.out.println(\"Beaver is chewing on wood\");<\/span><br><span class=\"dCode dNoWrap\">                return 2;<\/span><br><span class=\"dCode dNoWrap\">        }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8563,7 +8563,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;interface&amp;#160;HasExoskeleton&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;abstract&amp;#160;int&amp;#160;getNumberOfSections();<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;abstract&amp;#160;class&amp;#160;Insect&amp;#160;implements&amp;#160;HasExoskeleton&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;abstract&amp;#160;int&amp;#160;getNumberOfLegs();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;public&amp;#160;class&amp;#160;Beetle&amp;#160;extends&amp;#160;Insect&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;getNumberOfLegs()&amp;#160;{&amp;#160;return&amp;#160;6;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1: interface HasExoskeleton {<\/span><br><span class=\"dCode dNoWrap\">2:         abstract int getNumberOfSections();<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: abstract class Insect implements HasExoskeleton {<\/span><br><span class=\"dCode dNoWrap\">5:         abstract int getNumberOfLegs();<\/span><br><span class=\"dCode dNoWrap\">6: }<\/span><br><span class=\"dCode dNoWrap\">7: public class Beetle extends Insect {<\/span><br><span class=\"dCode dNoWrap\">8:         int getNumberOfLegs() { return 6; }<\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8701,7 +8701,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;interface&amp;#160;Herbivore&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;amount&amp;#160;=&amp;#160;10;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;eatGrass();<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;int&amp;#160;chew()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;13;<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span>",
+				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1: public interface Herbivore {<\/span><br><span class=\"dCode dNoWrap\">2:        int amount = 10;<\/span><br><span class=\"dCode dNoWrap\">3:        public static void eatGrass();<\/span><br><span class=\"dCode dNoWrap\">4:        public int chew() {<\/span><br><span class=\"dCode dNoWrap\">5:                return 13;<\/span><br><span class=\"dCode dNoWrap\">6:        }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8777,7 +8777,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;interface&amp;#160;CanFly&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;void&amp;#160;fly();<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;interface&amp;#160;HasWings&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;abstract&amp;#160;Object&amp;#160;getWindSpan();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;abstract&amp;#160;class&amp;#160;Falcon&amp;#160;implements&amp;#160;CanFly,&amp;#160;HasWings&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;}<\/span>",
+				"data": "Choose the correct statement about the following code:<br><br><span class=\"dCode dNoWrap\">1: public interface CanFly {<\/span><br><span class=\"dCode dNoWrap\">2:         void fly();<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: interface HasWings {<\/span><br><span class=\"dCode dNoWrap\">5:         public abstract Object getWindSpan();<\/span><br><span class=\"dCode dNoWrap\">6: }<\/span><br><span class=\"dCode dNoWrap\">7: abstract class Falcon implements CanFly, HasWings {<\/span><br><span class=\"dCode dNoWrap\">8: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -8825,7 +8825,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Although the definition of methods on lines 2 and 5 vary, both will be converted to <span class=\"dCode dNoWrap\">public&amp;#160;abstract<\/span> by the compiler. Line 4 is fine, because an interface can have <span class=\"dCode dNoWrap\">public<\/span> or default access. Finally, the class <span class=\"dCode dNoWrap\">Falcon<\/span> doesn\'t need to implement the interface methods because it is marked as <span class=\"dCode dNoWrap\">abstract<\/span>. Therefore, the code will compile without issue.",
+				"data": "Although the definition of methods on lines 2 and 5 vary, both will be converted to <span class=\"dCode dNoWrap\">public abstract<\/span> by the compiler. Line 4 is fine, because an interface can have <span class=\"dCode dNoWrap\">public<\/span> or default access. Finally, the class <span class=\"dCode dNoWrap\">Falcon<\/span> doesn\'t need to implement the interface methods because it is marked as <span class=\"dCode dNoWrap\">abstract<\/span>. Therefore, the code will compile without issue.",
 				"display_order": "1"
 			}]
 		}, {
@@ -8867,7 +8867,7 @@
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "Both can contain <span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;final<\/span> variables.",
+					"data": "Both can contain <span class=\"dCode dNoWrap\">public static final<\/span> variables.",
 					"display_order": "1"
 				}]
 			}, {
@@ -8908,7 +8908,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Option A is wrong, because an abstract class may contain concrete methods. Since Java 8, interfaces may also contain concrete methods in form of static or default methods. Although all variables in interfaces are assumed to be <span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;final<\/span>, abstract classes may contain them as well, so option B is correct. Both abstract classes and interfaces can be extended with the <span class=\"dCode dNoWrap\">extend<\/span> keyword, so option C is correct. Only interfaces can contain default methods, so option D is incorrect. Both abstract classes and interfaces can contain static methods, so option E is correct. Both structures require a concrete subclass to be instantiated, so option F is correct. Finally, though an instance of an object that implements an interface inherits <span class=\"dCode dNoWrap\">java.lang.Object<\/span>, the interface itself doesn\'t; otherwise, Java would support multiple inheritance for objects, which it doesn\'t. Therefore, option G is incorrect.",
+				"data": "Option A is wrong, because an abstract class may contain concrete methods. Since Java 8, interfaces may also contain concrete methods in form of static or default methods. Although all variables in interfaces are assumed to be <span class=\"dCode dNoWrap\">public static final<\/span>, abstract classes may contain them as well, so option B is correct. Both abstract classes and interfaces can be extended with the <span class=\"dCode dNoWrap\">extend<\/span> keyword, so option C is correct. Only interfaces can contain default methods, so option D is incorrect. Both abstract classes and interfaces can contain static methods, so option E is correct. Both structures require a concrete subclass to be instantiated, so option F is correct. Finally, though an instance of an object that implements an interface inherits <span class=\"dCode dNoWrap\">java.lang.Object<\/span>, the interface itself doesn\'t; otherwise, Java would support multiple inheritance for objects, which it doesn\'t. Therefore, option G is incorrect.",
 				"display_order": "1"
 			}]
 		}, {
@@ -8984,7 +8984,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "Interface variables are assumed to be <span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;final<\/span>; therefore, options A, D, and E are correct. Options B and C are incorrect because interface variables must be public&amp;#8212;interfaces are implemented by classes, not inherited by interfaces. Option F is incorrect because variables can never be abstract.",
+				"data": "Interface variables are assumed to be <span class=\"dCode dNoWrap\">public static final<\/span>; therefore, options A, D, and E are correct. Options B and C are incorrect because interface variables must be public&amp;#8212;interfaces are implemented by classes, not inherited by interfaces. Option F is incorrect because variables can never be abstract.",
 				"display_order": "1"
 			}]
 		}, {
@@ -9012,7 +9012,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;interface&amp;#160;Nocturnal&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;default&amp;#160;boolean&amp;#160;isBlind()&amp;#160;{&amp;#160;return&amp;#160;true;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;public&amp;#160;class&amp;#160;Owl&amp;#160;implements&amp;#160;Nocturnal&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;boolean&amp;#160;isBlind()&amp;#160;{&amp;#160;return&amp;#160;false;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Nocturnal&amp;#160;nocturnal&amp;#160;=&amp;#160;(Nocturnal)new&amp;#160;Owl();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(nocturnal.isBlind());<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: interface Nocturnal {<\/span><br><span class=\"dCode dNoWrap\">2:         default boolean isBlind() { return true; }<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: public class Owl implements Nocturnal {<\/span><br><span class=\"dCode dNoWrap\">5:        public boolean isBlind() { return false; }<\/span><br><span class=\"dCode dNoWrap\">6:         public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">7:                Nocturnal nocturnal = (Nocturnal)new Owl();<\/span><br><span class=\"dCode dNoWrap\">8:                System.out.println(nocturnal.isBlind());<\/span><br><span class=\"dCode dNoWrap\">9:         }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -9088,7 +9088,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;class&amp;#160;Arthropod&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;printName(double&amp;#160;input)&amp;#160;{&amp;#160;System.out.print(\"Arthropod\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;public&amp;#160;class&amp;#160;Spider&amp;#160;extends&amp;#160;Arthropod&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;printName(int&amp;#160;input)&amp;#160;{&amp;#160;System.out.print(\"Spider\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Spider&amp;#160;spider&amp;#160;=&amp;#160;new&amp;#160;Spider();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;spider.printName(4);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;spider.printName(9.0);<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: class Arthropod <\/span><br><span class=\"dCode dNoWrap\">2:         public void printName(double input) { System.out.print(\"Arthropod\"); }<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: public class Spider extends Arthropod {<\/span><br><span class=\"dCode dNoWrap\">5:         public void printName(int input) { System.out.print(\"Spider\"); }<\/span><br><span class=\"dCode dNoWrap\">6:        public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">7:                Spider spider = new Spider();<\/span><br><span class=\"dCode dNoWrap\">8:                spider.printName(4);<\/span><br><span class=\"dCode dNoWrap\">9:                spider.printName(9.0);<\/span><br><span class=\"dCode dNoWrap\">10:        }<\/span><br><span class=\"dCode dNoWrap\">11: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -9164,7 +9164,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which statements are true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;interface&amp;#160;HasVocalCords&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;abstract&amp;#160;void&amp;#160;makeSound();<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;public&amp;#160;interface&amp;#160;CanBark&amp;#160;extends&amp;#160;HasVocalCords&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;bark();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;}<\/span>",
+				"data": "Which statements are true about the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1: interface HasVocalCords {<\/span><br><span class=\"dCode dNoWrap\">2:        public abstract void makeSound();<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: public interface CanBark extends HasVocalCords {<\/span><br><span class=\"dCode dNoWrap\">5:         public void bark();<\/span><br><span class=\"dCode dNoWrap\">6: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -9302,21 +9302,21 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;abstract&amp;#160;class&amp;#160;Reptile&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;final&amp;#160;void&amp;#160;layEggs()&amp;#160;{&amp;#160;System.out.println(\"Reptile&amp;#160;laying&amp;#160;eggs\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Reptile&amp;#160;reptile&amp;#160;=&amp;#160;new&amp;#160;Lizard();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;reptile.layEggs();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;public&amp;#160;class&amp;#160;Lizard&amp;#160;extends&amp;#160;Reptile&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;layEggs()&amp;#160;{&amp;#160;System.out.println(\"Lizard&amp;#160;laying&amp;#160;eggs\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: abstract class Reptile {<\/span><br><span class=\"dCode dNoWrap\">2:         public final void layEggs() { System.out.println(\"Reptile laying eggs\"); }<\/span><br><span class=\"dCode dNoWrap\">3:         public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">4:                Reptile reptile = new Lizard();<\/span><br><span class=\"dCode dNoWrap\">5:                reptile.layEggs();<\/span><br><span class=\"dCode dNoWrap\">6:         }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span><br><span class=\"dCode dNoWrap\">8: public class Lizard extends Reptile {<\/span><br><span class=\"dCode dNoWrap\">9:         public void layEggs() { System.out.println(\"Lizard laying eggs\"); }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Reptile&amp;#160;laying&amp;#160;eggs<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Reptile laying eggs<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Lizard&amp;#160;laying&amp;#160;eggs<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Lizard laying eggs<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -9371,14 +9371,14 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;abstract&amp;#160;class&amp;#160;Whale&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;abstract&amp;#160;void&amp;#160;dive()&amp;#160;{};<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Whale&amp;#160;whale&amp;#160;=&amp;#160;new&amp;#160;Orca();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;whale.dive();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;class&amp;#160;Orca&amp;#160;extends&amp;#160;Whale&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;dive(int&amp;#160;depth)&amp;#160;{&amp;#160;System.out.println(\"Orca&amp;#160;diving\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">1: public abstract class Whale {<\/span><br><span class=\"dCode dNoWrap\">2:         public abstract void dive() {};<\/span><br><span class=\"dCode dNoWrap\">3:         public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">4:                Whale whale = new Orca();<\/span><br><span class=\"dCode dNoWrap\">5:                whale.dive();<\/span><br><span class=\"dCode dNoWrap\">6:         }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span><br><span class=\"dCode dNoWrap\">8: class Orca extends Whale {<\/span><br><span class=\"dCode dNoWrap\">9:         public void dive(int depth) { System.out.println(\"Orca diving\"); }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Orca&amp;#160;diving<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Orca diving<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -9440,7 +9440,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;interface&amp;#160;Aquatic&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;default&amp;#160;int&amp;#160;getNumberOfGills(int&amp;#160;input)&amp;#160;{&amp;#160;return&amp;#160;2;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;public&amp;#160;class&amp;#160;ClownFish&amp;#160;implements&amp;#160;Aquatic&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;getNumberOfGills()&amp;#160;{&amp;#160;return&amp;#160;\"4\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;getNumberOfGills(int&amp;#160;input)&amp;#160;{&amp;#160;return&amp;#160;\"6\";&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(new&amp;#160;ClownFish().getNumberOfGills(-1));<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span>",
+				"data": "What is the output of the following code? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1: interface Aquatic {<\/span><br><span class=\"dCode dNoWrap\">2:         public default int getNumberOfGills(int input) { return 2; }<\/span><br><span class=\"dCode dNoWrap\">3: }<\/span><br><span class=\"dCode dNoWrap\">4: public class ClownFish implements Aquatic {<\/span><br><span class=\"dCode dNoWrap\">5:        public String getNumberOfGills() { return \"4\"; }<\/span><br><span class=\"dCode dNoWrap\">6:        public String getNumberOfGills(int input) { return \"6\"; }<\/span><br><span class=\"dCode dNoWrap\">7:         public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">8:                System.out.println(new ClownFish().getNumberOfGills(-1));<\/span><br><span class=\"dCode dNoWrap\">9:         }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -9488,7 +9488,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The code doesn\'t compile because line 6 contains an incompatible override of the <span class=\"dCode dNoWrap\">getNumberOfGills(int&amp;#160;input)<\/span> method defined in the <span class=\"dCode dNoWrap\">Aquatic<\/span> interface. In particular, <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">String<\/span> are not covariant returns types, since <span class=\"dCode dNoWrap\">int<\/span> is not a subclass of <span class=\"dCode dNoWrap\">String<\/span>. Note that line 5 compiles without issue; <span class=\"dCode dNoWrap\">getNumberOfGills()<\/span> is an overloaded method that is not related to the parent interface method that takes an <span class=\"dCode dNoWrap\">int<\/span> value.",
+				"data": "The code doesn\'t compile because line 6 contains an incompatible override of the <span class=\"dCode dNoWrap\">getNumberOfGills(int input)<\/span> method defined in the <span class=\"dCode dNoWrap\">Aquatic<\/span> interface. In particular, <span class=\"dCode dNoWrap\">int<\/span> and <span class=\"dCode dNoWrap\">String<\/span> are not covariant returns types, since <span class=\"dCode dNoWrap\">int<\/span> is not a subclass of <span class=\"dCode dNoWrap\">String<\/span>. Note that line 5 compiles without issue; <span class=\"dCode dNoWrap\">getNumberOfGills()<\/span> is an overloaded method that is not related to the parent interface method that takes an <span class=\"dCode dNoWrap\">int<\/span> value.",
 				"display_order": "1"
 			}]
 		}, {
@@ -9516,42 +9516,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following statements can be inserted in the blank so that the code will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Snake&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;Cobra&amp;#160;extends&amp;#160;Snake&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;GardenSnake&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">public&amp;#160;class&amp;#160;SnakeHandler&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;private&amp;#160;Snake&amp;#160;snake;<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;setSnake(Snake&amp;#160;snake)&amp;#160;{&amp;#160;this.snake&amp;#160;=&amp;#160;snake;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;SnakeHandler().setSnake(___________);<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following statements can be inserted in the blank so that the code will compile successfully? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public class Snake {}<\/span><br><span class=\"dCode dNoWrap\">public class Cobra extends Snake {}<\/span><br><span class=\"dCode dNoWrap\">public class GardenSnake {}<\/span><br><span class=\"dCode dNoWrap\">public class SnakeHandler {<\/span><br><span class=\"dCode dNoWrap\">        private Snake snake;<\/span><br><span class=\"dCode dNoWrap\">        public void setSnake(Snake snake) { this.snake = snake; }<\/span><br><span class=\"dCode dNoWrap\">        public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">                new SnakeHandler().setSnake(___________);<\/span><br><span class=\"dCode dNoWrap\">        }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">new&amp;#160;Cobra()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">new Cobra()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">new&amp;#160;GardenSnake()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">new GardenSnake()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">new&amp;#160;Snake()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">new Snake()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">new&amp;#160;Object()<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">new Object()<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">new&amp;#160;String(\"Snake\")<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">new String(\"Snake\")<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -9592,21 +9592,21 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;abstract&amp;#160;class&amp;#160;Bird&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;private&amp;#160;void&amp;#160;fly()&amp;#160;{&amp;#160;System.out.println(\"Bird&amp;#160;is&amp;#160;flying\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Bird&amp;#160;bird&amp;#160;=&amp;#160;new&amp;#160;Pelican();<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;bird.fly();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;class&amp;#160;Pelican&amp;#160;extends&amp;#160;Bird&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;protected&amp;#160;void&amp;#160;fly()&amp;#160;{&amp;#160;System.out.println(\"Pelican&amp;#160;is&amp;#160;flying\");&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;}<\/span>",
+				"data": "What is the result of the following code?<br><br><span class=\"dCode dNoWrap\">1: public abstract class Bird {<\/span><br><span class=\"dCode dNoWrap\">2:        private void fly() { System.out.println(\"Bird is flying\"); }<\/span><br><span class=\"dCode dNoWrap\">3:        public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">4:                Bird bird = new Pelican();<\/span><br><span class=\"dCode dNoWrap\">5:                bird.fly();<\/span><br><span class=\"dCode dNoWrap\">6:        }<\/span><br><span class=\"dCode dNoWrap\">7: }<\/span><br><span class=\"dCode dNoWrap\">8: class Pelican extends Bird {<\/span><br><span class=\"dCode dNoWrap\">9:        protected void fly() { System.out.println(\"Pelican is flying\"); }<\/span><br><span class=\"dCode dNoWrap\">10: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Bird&amp;#160;is&amp;#160;flying<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Bird is flying<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Pelican&amp;#160;is&amp;#160;flying<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Pelican is flying<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -9730,7 +9730,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following pairs fill in the blanks to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7:&amp;#160;public&amp;#160;void&amp;#160;ohNo()&amp;#160;_____&amp;#160;Exception&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;_____________&amp;#160;Exception();<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "Which of the following pairs fill in the blanks to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7: public void ohNo() _____ Exception {<\/span><br><span class=\"dCode dNoWrap\">8:   _____________ Exception();<\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -9758,7 +9758,7 @@
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "On line 8, fill in <span class=\"dCode dNoWrap\">throw&amp;#160;new<\/span>",
+					"data": "On line 8, fill in <span class=\"dCode dNoWrap\">throw new<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -9772,7 +9772,7 @@
 				"id": "6",
 				"data": [{
 					"data_type_id": "2",
-					"data": "On line 8, fill in <span class=\"dCode dNoWrap\">throws&amp;#160;new<\/span>",
+					"data": "On line 8, fill in <span class=\"dCode dNoWrap\">throws new<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -9875,7 +9875,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which exception will the following throw?<br><br><span class=\"dCode dNoWrap\">Object&amp;#160;obj&amp;#160;=&amp;#160;new&amp;#160;Integer(3);<\/span><br><span class=\"dCode dNoWrap\">String&amp;#160;str&amp;#160;=&amp;#160;(String)&amp;#160;obj;<\/span><br><span class=\"dCode dNoWrap\">System.out.println(str);<\/span>",
+				"data": "Which exception will the following throw?<br><br><span class=\"dCode dNoWrap\">Object obj = new Integer(3);<\/span><br><span class=\"dCode dNoWrap\">String str = (String) obj;<\/span><br><span class=\"dCode dNoWrap\">System.out.println(str);<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10013,7 +10013,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What will happen if you add the statement <span class=\"dCode dNoWrap\">System.out.println(5&amp;#160;\/&amp;#160;0);<\/span> to a working <span class=\"dCode dNoWrap\">main()<\/span> method?",
+				"data": "What will happen if you add the statement <span class=\"dCode dNoWrap\">System.out.println(5 \/ 0);<\/span> to a working <span class=\"dCode dNoWrap\">main()<\/span> method?",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10082,7 +10082,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is printed besides the stack trace caused by the <span class=\"dCode dNoWrap\">NullPointerException<\/span> from line 16? <br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;DoSomething&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;go()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"A\");<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;stop();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(ArithmeticException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"B\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;finally&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"C\");<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;stop()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;Object&amp;#160;x&amp;#160;=&amp;#160;null;<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;x.toString();<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">19:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">20:&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;DoSomething().go();<\/span><br><span class=\"dCode dNoWrap\">21:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">22:&amp;#160;}<\/span>",
+				"data": "What is printed besides the stack trace caused by the <span class=\"dCode dNoWrap\">NullPointerException<\/span> from line 16? <br><br><span class=\"dCode dNoWrap\">1: public class DoSomething {<\/span><br><span class=\"dCode dNoWrap\">2:   public void go() {<\/span><br><span class=\"dCode dNoWrap\">3:     System.out.print(\"A\");<\/span><br><span class=\"dCode dNoWrap\">4:     try {<\/span><br><span class=\"dCode dNoWrap\">5:         stop();<\/span><br><span class=\"dCode dNoWrap\">6:       } catch (ArithmeticException e) {<\/span><br><span class=\"dCode dNoWrap\">7:         System.out.print(\"B\");<\/span><br><span class=\"dCode dNoWrap\">8:       } finally {<\/span><br><span class=\"dCode dNoWrap\">9:         System.out.print(\"C\");<\/span><br><span class=\"dCode dNoWrap\">10:      }<\/span><br><span class=\"dCode dNoWrap\">11:     System.out.print(\"D\");<\/span><br><span class=\"dCode dNoWrap\">12:  }<\/span><br><span class=\"dCode dNoWrap\">13:  public void stop() {<\/span><br><span class=\"dCode dNoWrap\">14:    System.out.print(\"E\");<\/span><br><span class=\"dCode dNoWrap\">15:    Object x = null;<\/span><br><span class=\"dCode dNoWrap\">16:    x.toString();<\/span><br><span class=\"dCode dNoWrap\">17:    System.out.print(\"F\");<\/span><br><span class=\"dCode dNoWrap\">18:  }<\/span><br><span class=\"dCode dNoWrap\">19:  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">20:    new DoSomething().go();<\/span><br><span class=\"dCode dNoWrap\">21:  }<\/span><br><span class=\"dCode dNoWrap\">22: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10151,7 +10151,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;a&amp;#160;\/&amp;#160;b;<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(RuntimeException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;-1;<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}catch(ArithmeticException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;return&amp;#160;0;<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;finally&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"done\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;<\/span>",
+				"data": "What is the output of the following code?<br><br><span class=\"dCode dNoWrap\">3:     try {<\/span><br><span class=\"dCode dNoWrap\">4:       return a \/ b;<\/span><br><span class=\"dCode dNoWrap\">5:     } catch (RuntimeException e) {<\/span><br><span class=\"dCode dNoWrap\">6:       return -1;<\/span><br><span class=\"dCode dNoWrap\">7:     }catch(ArithmeticException e) {<\/span><br><span class=\"dCode dNoWrap\">8:       return 0;<\/span><br><span class=\"dCode dNoWrap\">9:     } finally {<\/span><br><span class=\"dCode dNoWrap\">10:      System.out.print(\"done\");<\/span><br><span class=\"dCode dNoWrap\">11:    } <\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10227,35 +10227,35 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;public&amp;#160;class&amp;#160;Laptop&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;start()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Starting&amp;#160;up&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;new&amp;#160;Exception();<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(Exception&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Problem&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.exit(0);<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;finally&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"Shutting&amp;#160;down&amp;#160;\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;&amp;#160;new&amp;#160;Laptop().start();<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1: public class Laptop {<\/span><br><span class=\"dCode dNoWrap\">2:   public void start() {<\/span><br><span class=\"dCode dNoWrap\">3:    try {<\/span><br><span class=\"dCode dNoWrap\">4:      System.out.print(\"Starting up \");<\/span><br><span class=\"dCode dNoWrap\">5:       throw new Exception();<\/span><br><span class=\"dCode dNoWrap\">6:     } catch (Exception e) {<\/span><br><span class=\"dCode dNoWrap\">7:       System.out.print(\"Problem \");<\/span><br><span class=\"dCode dNoWrap\">8:       System.exit(0);<\/span><br><span class=\"dCode dNoWrap\">9:     } finally {<\/span><br><span class=\"dCode dNoWrap\">10:      System.out.print(\"Shutting down \");<\/span><br><span class=\"dCode dNoWrap\">11:    } <\/span><br><span class=\"dCode dNoWrap\">12:  }<\/span><br><span class=\"dCode dNoWrap\">13:  public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">14:    new Laptop().start();<\/span><br><span class=\"dCode dNoWrap\">15:  } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Starting&amp;#160;up<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Starting up<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Starting&amp;#160;up&amp;#160;Problem<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Starting up Problem<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Starting&amp;#160;up&amp;#160;Problem&amp;#160;Shutting&amp;#160;down<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Starting up Problem Shutting down<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">Starting&amp;#160;up&amp;#160;Shutting&amp;#160;down<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">Starting up Shutting down<\/span>",
 					"display_order": "1"
 				}]
 			}, {
@@ -10275,7 +10275,7 @@
 			}],
 			"hints": [{
 				"data_type_id": "2",
-				"data": "The <span class=\"dCode dNoWrap\">main()<\/span> method invokes <span class=\"dCode dNoWrap\">start<\/span> on a new <span class=\"dCode dNoWrap\">Laptop<\/span> object. Line 4 prints <span class=\"dCode dNoWrap\">Starting&amp;#160;up<\/span>; then line 5 throws an <span class=\"dCode dNoWrap\">Exception<\/span>. Line 6 catches the exception, line 7 prints Problem, and then line 8 calls <span class=\"dCode dNoWrap\">System.exit<\/span>, which terminates the JVM. The <span class=\"dCode dNoWrap\">finally<\/span> block does not execute because the JVM is no longer running.",
+				"data": "The <span class=\"dCode dNoWrap\">main()<\/span> method invokes <span class=\"dCode dNoWrap\">start<\/span> on a new <span class=\"dCode dNoWrap\">Laptop<\/span> object. Line 4 prints <span class=\"dCode dNoWrap\">Starting up<\/span>; then line 5 throws an <span class=\"dCode dNoWrap\">Exception<\/span>. Line 6 catches the exception, line 7 prints Problem, and then line 8 calls <span class=\"dCode dNoWrap\">System.exit<\/span>, which terminates the JVM. The <span class=\"dCode dNoWrap\">finally<\/span> block does not execute because the JVM is no longer running.",
 				"display_order": "1"
 			}]
 		}, {
@@ -10303,7 +10303,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Dog&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;name;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;parseName()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;Integer.parseInt(name);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(NumberFormatException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Dog&amp;#160;leroy&amp;#160;=&amp;#160;new&amp;#160;Dog();<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;leroy.name&amp;#160;=&amp;#160;\"Leroy\";<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;leroy.parseName();<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:  public class Dog {<\/span><br><span class=\"dCode dNoWrap\">2:    public String name;<\/span><br><span class=\"dCode dNoWrap\">3:    public void parseName() {<\/span><br><span class=\"dCode dNoWrap\">4:      System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:      try {<\/span><br><span class=\"dCode dNoWrap\">6:        System.out.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:        int x = Integer.parseInt(name);<\/span><br><span class=\"dCode dNoWrap\">8:        System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:      } catch (NumberFormatException e) {<\/span><br><span class=\"dCode dNoWrap\">10:       System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:     }<\/span><br><span class=\"dCode dNoWrap\">12:   }<\/span><br><span class=\"dCode dNoWrap\">13:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">14:     Dog leroy = new Dog();<\/span><br><span class=\"dCode dNoWrap\">15:     leroy.name = \"Leroy\";<\/span><br><span class=\"dCode dNoWrap\">16:     leroy.parseName();<\/span><br><span class=\"dCode dNoWrap\">17:     System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">18:   } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10386,7 +10386,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Cat&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;name;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;parseName()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.<i>out<\/i>.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;int&amp;#160;x&amp;#160;=&amp;#160;Integer.parseInt(name);<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(NullPointerException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Cat&amp;#160;leo&amp;#160;=&amp;#160;new&amp;#160;Cat();<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;leo.name&amp;#160;=&amp;#160;\"Leo\";<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;leo.parseName();<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"6\");<\/span><br><span class=\"dCode dNoWrap\">19:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">20:&amp;#160;}<\/span>",
+				"data": "What is the output of the following program?<br><br><span class=\"dCode dNoWrap\">1:  public class Cat {<\/span><br><span class=\"dCode dNoWrap\">2:    public String name;<\/span><br><span class=\"dCode dNoWrap\">3:    public void parseName() {<\/span><br><span class=\"dCode dNoWrap\">4:      System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:      try {<\/span><br><span class=\"dCode dNoWrap\">6:        System.<i>out<\/i>.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:        int x = Integer.parseInt(name);<\/span><br><span class=\"dCode dNoWrap\">8:        System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:      } catch (NullPointerException e) {<\/span><br><span class=\"dCode dNoWrap\">10:       System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:     }<\/span><br><span class=\"dCode dNoWrap\">12:     System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">13:   }<\/span><br><span class=\"dCode dNoWrap\">14:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">15:     Cat leo = new Cat();<\/span><br><span class=\"dCode dNoWrap\">16:     leo.name = \"Leo\";<\/span><br><span class=\"dCode dNoWrap\">17:     leo.parseName();<\/span><br><span class=\"dCode dNoWrap\">18:     System.out.print(\"6\");<\/span><br><span class=\"dCode dNoWrap\">19:   }<\/span><br><span class=\"dCode dNoWrap\">20: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10469,7 +10469,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What is printed by the following? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:&amp;#160;&amp;#160;public&amp;#160;class&amp;#160;Mouse&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">2:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;String&amp;#160;name;<\/span><br><span class=\"dCode dNoWrap\">3:&amp;#160;&amp;#160;&amp;#160;&amp;#160;public&amp;#160;void&amp;#160;run()&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">4:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">6:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;name.toString();<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(NullPointerException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">10:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;e;<\/span><br><span class=\"dCode dNoWrap\">12:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Mouse&amp;#160;jerry&amp;#160;=&amp;#160;new&amp;#160;Mouse();<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;jerry.run();<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"6\");<\/span><br><span class=\"dCode dNoWrap\">19:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;}<\/span>",
+				"data": "What is printed by the following? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">1:  public class Mouse {<\/span><br><span class=\"dCode dNoWrap\">2:    public String name;<\/span><br><span class=\"dCode dNoWrap\">3:    public void run() {<\/span><br><span class=\"dCode dNoWrap\">4:      System.out.print(\"1\");<\/span><br><span class=\"dCode dNoWrap\">5:      try {<\/span><br><span class=\"dCode dNoWrap\">6:        System.out.print(\"2\");<\/span><br><span class=\"dCode dNoWrap\">7:        name.toString();<\/span><br><span class=\"dCode dNoWrap\">8:        System.out.print(\"3\");<\/span><br><span class=\"dCode dNoWrap\">9:      } catch (NullPointerException e) {<\/span><br><span class=\"dCode dNoWrap\">10:       System.out.print(\"4\");<\/span><br><span class=\"dCode dNoWrap\">11:       throw e;<\/span><br><span class=\"dCode dNoWrap\">12:     }<\/span><br><span class=\"dCode dNoWrap\">13:     System.out.print(\"5\");<\/span><br><span class=\"dCode dNoWrap\">14:   }<\/span><br><span class=\"dCode dNoWrap\">15:   public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">16:     Mouse jerry = new Mouse();<\/span><br><span class=\"dCode dNoWrap\">17:     jerry.run();<\/span><br><span class=\"dCode dNoWrap\">18:     System.out.print(\"6\");<\/span><br><span class=\"dCode dNoWrap\">19:   } }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -10621,42 +10621,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can be inserted on line 8 to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7:&amp;#160;public&amp;#160;void&amp;#160;ohNo()&amp;#160;throws&amp;#160;IOException&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">8:&amp;#160;&amp;#160;&amp;#160;\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">9:&amp;#160;}<\/span>",
+				"data": "Which of the following can be inserted on line 8 to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">7: public void ohNo() throws IOException {<\/span><br><span class=\"dCode dNoWrap\">8:   \/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">9: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">System.out.println(\"it\'s&amp;#160;ok\");<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">System.out.println(\"it\'s ok\");<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">throw&amp;#160;new&amp;#160;Exception();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">throw new Exception();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">throw&amp;#160;new&amp;#160;IllegalArgumentException();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">throw new IllegalArgumentException();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">throw&amp;#160;new&amp;#160;java.io.IOException();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">throw new java.io.IOException();<\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">throw&amp;#160;new&amp;#160;RuntimeException();<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">throw new RuntimeException();<\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -10835,42 +10835,42 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can be inserted into <span class=\"dCode dNoWrap\">Lion<\/span> to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">class&amp;#160;HasSoreThroatException&amp;#160;extends&amp;#160;Exception&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">class&amp;#160;TiredException&amp;#160;extends&amp;#160;RuntimeException&amp;#160;{}<\/span><br><span class=\"dCode dNoWrap\">interface&amp;#160;Roar&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;void&amp;#160;roar()&amp;#160;throws&amp;#160;HasSoreThroatException;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">class&amp;#160;Lion&amp;#160;implements&amp;#160;Roar&amp;#160;{\/\/&amp;#160;INSERT&amp;#160;CODE&amp;#160;HERE<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following can be inserted into <span class=\"dCode dNoWrap\">Lion<\/span> to make this code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">class HasSoreThroatException extends Exception {}<\/span><br><span class=\"dCode dNoWrap\">class TiredException extends RuntimeException {}<\/span><br><span class=\"dCode dNoWrap\">interface Roar {<\/span><br><span class=\"dCode dNoWrap\">  void roar() throws HasSoreThroatException;<\/span><br><span class=\"dCode dNoWrap\">}<\/span><br><span class=\"dCode dNoWrap\">class Lion implements Roar {\/\/ INSERT CODE HERE<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
 				"id": "1",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;roar(){}&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void roar(){} <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "2",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;roar()&amp;#160;throws&amp;#160;Exception{}<\/span> ",
+					"data": "<span class=\"dCode dNoWrap\">public void roar() throws Exception{}<\/span> ",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "3",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;roar()&amp;#160;throws&amp;#160;HasSoreThroatException{}&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void roar() throws HasSoreThroatException{} <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "4",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;roar()&amp;#160;throws&amp;#160;IllegalArgumentException{}&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void roar() throws IllegalArgumentException{} <\/span>",
 					"display_order": "1"
 				}]
 			}, {
 				"id": "5",
 				"data": [{
 					"data_type_id": "2",
-					"data": "<span class=\"dCode dNoWrap\">public&amp;#160;void&amp;#160;roar()&amp;#160;throws&amp;#160;TiredException{}&amp;#160;<\/span>",
+					"data": "<span class=\"dCode dNoWrap\">public void roar() throws TiredException{} <\/span>",
 					"display_order": "1"
 				}]
 			}],
@@ -10980,7 +10980,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "Which of the following can be inserted in the blank to make the code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.println(\"work&amp;#160;real&amp;#160;hard\");<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(_________________&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(RuntimeException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
+				"data": "Which of the following can be inserted in the blank to make the code compile? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">  try {<\/span><br><span class=\"dCode dNoWrap\">    System.out.println(\"work real hard\");<\/span><br><span class=\"dCode dNoWrap\">  } catch (_________________ e) {<\/span><br><span class=\"dCode dNoWrap\">  } catch (RuntimeException e) {<\/span><br><span class=\"dCode dNoWrap\">  }<\/span><br><span class=\"dCode dNoWrap\">}<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -11056,7 +11056,7 @@
 			"direction": [],
 			"questionData": [{
 				"data_type_id": "2",
-				"data": "What does the output of the following contain? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">12:&amp;#160;public&amp;#160;static&amp;#160;void&amp;#160;main(String[]&amp;#160;args)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">13:&amp;#160;&amp;#160;&amp;#160;System.out.print(\"a\");<\/span><br><span class=\"dCode dNoWrap\">14:&amp;#160;&amp;#160;&amp;#160;try&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">15:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"b\");<\/span><br><span class=\"dCode dNoWrap\">16:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;new&amp;#160;IllegalArgumentException();<\/span><br><span class=\"dCode dNoWrap\">17:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(IllegalArgumentException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">18:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"c\");<\/span><br><span class=\"dCode dNoWrap\">19:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;new&amp;#160;RuntimeException(\"1\");<\/span><br><span class=\"dCode dNoWrap\">20:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;catch&amp;#160;(RuntimeException&amp;#160;e)&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">21:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"d\");<\/span><br><span class=\"dCode dNoWrap\">22:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;new&amp;#160;RuntimeException(\"2\");<\/span><br><span class=\"dCode dNoWrap\">23:&amp;#160;&amp;#160;&amp;#160;}&amp;#160;finally&amp;#160;{<\/span><br><span class=\"dCode dNoWrap\">24:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;System.out.print(\"e\");<\/span><br><span class=\"dCode dNoWrap\">25:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;throw&amp;#160;new&amp;#160;RuntimeException(\"3\");<\/span><br><span class=\"dCode dNoWrap\">26:&amp;#160;&amp;#160;&amp;#160;}<\/span><br><span class=\"dCode dNoWrap\">27:&amp;#160;}<\/span>",
+				"data": "What does the output of the following contain? (Choose all that apply)<br><br><span class=\"dCode dNoWrap\">12: public static void main(String[] args) {<\/span><br><span class=\"dCode dNoWrap\">13:   System.out.print(\"a\");<\/span><br><span class=\"dCode dNoWrap\">14:   try {<\/span><br><span class=\"dCode dNoWrap\">15:     System.out.print(\"b\");<\/span><br><span class=\"dCode dNoWrap\">16:     throw new IllegalArgumentException();<\/span><br><span class=\"dCode dNoWrap\">17:   } catch (IllegalArgumentException e) {<\/span><br><span class=\"dCode dNoWrap\">18:     System.out.print(\"c\");<\/span><br><span class=\"dCode dNoWrap\">19:     throw new RuntimeException(\"1\");<\/span><br><span class=\"dCode dNoWrap\">20:   } catch (RuntimeException e) {<\/span><br><span class=\"dCode dNoWrap\">21:     System.out.print(\"d\");<\/span><br><span class=\"dCode dNoWrap\">22:     throw new RuntimeException(\"2\");<\/span><br><span class=\"dCode dNoWrap\">23:   } finally {<\/span><br><span class=\"dCode dNoWrap\">24:     System.out.print(\"e\");<\/span><br><span class=\"dCode dNoWrap\">25:     throw new RuntimeException(\"3\");<\/span><br><span class=\"dCode dNoWrap\">26:   }<\/span><br><span class=\"dCode dNoWrap\">27: }<\/span>",
 				"display_order": "1"
 			}],
 			"choiceData": [{
@@ -11116,7 +11116,21 @@
             for ($i=0; $i< 140; $i++){
                 echo $i+1 .' ';
                 print_r ($datos["sections"]["question"][$i]["questionData"][0]["data"]);
-                echo '<br>';
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][0]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][1]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][2]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][3]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][4]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                                print_r ($datos["sections"]["question"][$i]["choiceData"][5]["data"][0]["data"]);
+                echo '<br>';echo '<br>';
+                print_r ($datos["sections"]["question"][$i]["hints"][0]["data"]);
+                echo '<br>';echo '<br>';
             }
         ?>
     </body>
